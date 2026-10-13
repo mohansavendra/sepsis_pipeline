@@ -2,7 +2,7 @@
 
 A deterministic, evidence-grounded pipeline that (1) answers four SEP-1 abstraction questions from a synthetic (Synthea) encounter summary and (2) audits an *other* AI model's answer to the same question, classifying it as acceptable or not and, if not, saying why.
 
-> The original assignment brief is kept in [`docs/ASSIGNMENT.md`](docs/ASSIGNMENT.md). The evaluation report is [`REPORT.md`](REPORT.md).
+> The evaluation report is [`REPORT.md`](REPORT.md).
 
 ## Quick start
 
@@ -52,6 +52,8 @@ REPORT.md                           evaluation report
    Evidence strings contain only values and timestamps copied from the context. Absent parameters are reported as "not recorded".
 3. **Validate the other model** (`validate.py`). Verdict and reasoning are judged separately. Error precedence when several problems exist:
    `wrong_value > hallucinated_detail > right_answer_wrong_reason > incomplete`.
+
+   **Label rule:** a correct verdict with an explanation that cites *no* evidence (or cites evidence that is invalid or contradicts the verdict) is `right_answer_wrong_reason`; a correct verdict with *partial* evidence (e.g. claims 2 SIRS criteria, substantiates 1) is `incomplete`. Example: EVAL-0044 ("follows from the documented clinical picture...") vs. EVAL-0012 ("2 SIRS criteria met" with one cited).
    Checks include: verdict vs. rule result; every timestamp, number+unit, medication and condition in the explanation must exist in the context; cited values must actually meet the criterion; the number of criteria claimed must be substantiated; a "yes" must cite enough valid evidence; vacuous or self-contradictory explanations are flagged. Lower-precedence problems are still listed in `validation_notes`.
 4. **Route for review** (`pipeline.py`). `human_review` is True when any of these hold: the model answer is unacceptable, an explanation sentence matched no known template, a parse warning occurred, SIRS criteria were met more than 24 h apart, creatinine >15 mg/dL (likely entry/unit error), SIRS not met with parameters missing, infection found only in the reason for encounter, or SIRS met on exactly two criteria with multiple measurements, no organ-dysfunction labs recorded, or an antibiotic named without a start time.
 5. **Evaluate** (`pipeline.evaluate_dev`). Dev labels are read *only* here; prediction and validation code never touches them, and `load_records` asserts that labels exist only for dev rows.
@@ -71,7 +73,7 @@ Measured on the 20 labeled dev records (details and caveats in [`REPORT.md`](REP
 | Acceptability agreement with dev labels | 20/20 (3 unacceptable answers caught, 0 missed, 0 false alarms) |
 | Human-review rate | 40% dev, 48.8% test |
 
-Dev accuracy is **not** an estimate of test accuracy: the dev set is tiny and was used to develop the rules. Test labels are hidden, so no test accuracy is claimed. On the 80 test records the validator flags 22 other-model answers (10 `wrong_value`, 8 `incomplete`, 4 `hallucinated_detail`); these are counts of flags, not verified results.
+Dev accuracy is **not** an estimate of test accuracy: the dev set is tiny and was used to develop the rules. Test labels are hidden, so no test accuracy is claimed. On the 80 test records the validator flags 22 other-model answers (10 `wrong_value`, 8 `right_answer_wrong_reason`, 4 `hallucinated_detail`, 0 `incomplete`); these are counts of flags, not verified results.
 
 ## Design decision: no LLM
 
@@ -82,7 +84,6 @@ The contexts and the other model's explanations follow fixed templates, and the 
 - Synthetic, templated data. Results say nothing about clinical validity or readiness for real patients.
 - The infection and antibiotic term lists are hand-written; they cover every condition and medication in these 100 records but will miss new vocabulary. The "unsupported source" watch-list (lactate, attending, ...) is also hand-written and incomplete by nature. The unrecognised-sentence flag is the safety net.
 - SIRS and organ-dysfunction checks consider any measurement in the encounter; they do not apply a formal SEP-1 time window. Wide gaps are flagged, not resolved.
-- `right_answer_wrong_reason` never fires on the supplied data, so it is covered only by synthetic unit tests (`tests/test_wrong_reason.py`), not by real records.
 - The validator only understands the other model's known explanation templates; free-form explanations would mostly fall through to human review.
 
 ## Production sketch (Azure / Microsoft Fabric, monthly batch)

@@ -35,7 +35,7 @@ def test_hallucinated_lactate_detected():
 def test_dev_error_types():
     assert err("EVAL-0045") == "wrong_value"
     assert err("EVAL-0012") == "incomplete"    # right verdict, cites 1 of the 2 claimed criteria
-    assert err("EVAL-0044") == "incomplete"    # right verdict, vacuous explanation
+    assert err("EVAL-0044") == "right_answer_wrong_reason"    # right verdict, no evidence at all
 
 
 def test_correct_verdict_does_not_imply_acceptable():

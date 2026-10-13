@@ -218,7 +218,7 @@ def validate_model_answer(family: str, pc: ParsedContext, rule: RuleResult, cont
         if (not model_value) and has_pos and not has_neg:
             reasons["right_answer_wrong_reason"].append("verdict is no but explanation argues yes")
         if not has_pos and not has_neg:
-            reasons["incomplete"].append("explanation contains no evidence addressing the question")
+            reasons["right_answer_wrong_reason"].append("verdict is correct but explanation cites no evidence")
 
     # ---- 5. unrecognised sentences are never silently trusted -------------------------
     for s in sentences:

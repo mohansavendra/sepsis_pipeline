@@ -14,13 +14,14 @@
     "false_alarms": 0
   },
   "dev_error_types": {
-    "incomplete": 2,
+    "incomplete": 1,
+    "right_answer_wrong_reason": 1,
     "wrong_value": 1
   },
   "dev_human_review_rate": 0.4,
   "test_error_types": {
     "wrong_value": 10,
-    "incomplete": 8,
+    "right_answer_wrong_reason": 8,
     "hallucinated_detail": 4
   }
 }
