@@ -6,7 +6,7 @@ A deterministic, evidence-grounded pipeline that (1) answers four SEP-1 abstract
 
 ## Quick start
 
-Requires Python 3.10+.
+Requires Python 3.10+ (developed and tested on 3.12).
 
 ```bash
 python3 -m venv .venv
@@ -19,6 +19,8 @@ PYTHONPATH=src python -m sepsis.pipeline      # Windows PowerShell: $env:PYTHONP
 # run the tests
 pytest -q
 ```
+
+Running the pipeline performs these steps in order: (1) load and validate the input records, (2) answer each clinical question with evidence, (3) validate the other model's answer, (4) write `predictions.csv`, (5) evaluate the dev split and write `dev_metrics.json` (printed to the console as well).
 
 Optional arguments: `--records`, `--labels`, `--out` (defaults: `data/records.csv`, `data/dev_labels.csv`, `./predictions.csv`).
 
