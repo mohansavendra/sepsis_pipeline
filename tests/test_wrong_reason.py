@@ -1,4 +1,4 @@
-"""Synthetic cases for `right_answer_wrong_reason` (never occurs in the supplied data)."""
+"""Synthetic unit cases for `right_answer_wrong_reason` (cited value fails threshold, non-infectious condition, contradictory explanation)."""
 import sys, pathlib
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
