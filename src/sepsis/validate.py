@@ -1,6 +1,6 @@
 """Step 3: validate the OTHER model's answer against the clinical context.
 
-Two questions are kept separate (README section 6):
+Two questions are kept separate (see README, "How it works"):
   1. Is the verdict right?   -> compare with our rule-based prediction.
   2. Is the reasoning sound? -> every detail in the explanation must be traceable to the
                                 context, must actually satisfy the criterion it is cited
