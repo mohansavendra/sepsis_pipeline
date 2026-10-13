@@ -1,0 +1,26 @@
+{
+  "n_dev": 20,
+  "prediction_accuracy": 1.0,
+  "prediction_accuracy_by_family": {
+    "ANTIBIOTIC": 1.0,
+    "INFECTION": 1.0,
+    "ORGAN_DYSFUNCTION": 1.0,
+    "SIRS": 1.0
+  },
+  "acceptability_agreement": 1.0,
+  "acceptability_confusion": {
+    "true_unacceptable_caught": 3,
+    "true_unacceptable_missed": 0,
+    "false_alarms": 0
+  },
+  "dev_error_types": {
+    "incomplete": 2,
+    "wrong_value": 1
+  },
+  "dev_human_review_rate": 0.4,
+  "test_error_types": {
+    "wrong_value": 10,
+    "incomplete": 8,
+    "hallucinated_detail": 4
+  }
+}

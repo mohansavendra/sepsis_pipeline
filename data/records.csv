@@ -1,0 +1,1778 @@
+record_id,split,question_family,question,clinical_context,model_answer_value,model_answer_explanation
+EVAL-0001,test,SIRS,"Were two or more manifestations of systemic inflammatory response syndrome (SIRS) present during this encounter? If so, list each criterion met with its value and time.","ENCOUNTER d2200ba8 — inpatient, 2018-08-24 00:42
+Patient: 53-year-old, sex M.
+Reason for encounter: Encounter for problem.
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  2018-08-24 00:42   Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 41.5 U/L
+  2018-08-24 00:42   Albumin [Mass/volume] in Serum or Plasma: 3.9 g/dL
+  2018-08-24 00:42   Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma: 98.8 U/L
+  2018-08-24 00:42   Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 16.6 U/L
+  2018-08-24 00:42   Bilirubin.total [Mass/volume] in Serum or Plasma: 0.7 mg/dL
+  2018-08-24 00:42   Bilirubin.total [Mass/volume] in Urine by Test strip: 0.5 mg/dL
+  2018-08-24 00:42   Body temperature: 38.4 Cel
+  2018-08-24 00:42   Calcium: 8.9 mg/dL
+  2018-08-24 00:42   Carbon Dioxide: 23.0 mmol/L
+  2018-08-24 00:42   Chloride: 101.6 mmol/L
+  2018-08-24 00:42   Creatinine: 3.2 mg/dL
+  2018-08-24 00:42   Erythrocyte distribution width [Entitic volume] by Automated count: 40.7 fL
+  2018-08-24 00:42   Erythrocytes [#/volume] in Blood by Automated count: 4.7 10*6/uL
+  2018-08-24 00:42   Globulin [Mass/volume] in Serum by calculation: 3.3 g/L
+  2018-08-24 00:42   Glomerular filtration rate/1.73 sq M.predicted: 13.2 mL/min
+  2018-08-24 00:42   Glucose: 87.3 mg/dL
+  2018-08-24 00:42   Glucose [Mass/volume] in Urine by Test strip: 1.9 mg/dL
+  2018-08-24 00:42   Hematocrit [Volume Fraction] of Blood by Automated count: 36.7 %
+  2018-08-24 00:42   Hemoglobin [Mass/volume] in Blood: 14.0 g/dL
+  2018-08-24 00:42   Ketones [Mass/volume] in Urine by Test strip: 18.6 mg/dL
+  2018-08-24 00:42   Leukocytes [#/volume] in Blood by Automated count: 0.8 10*3/uL
+  2018-08-24 00:42   MCH [Entitic mass] by Automated count: 32.3 pg
+  2018-08-24 00:42   MCHC [Mass/volume] by Automated count: 35.0 g/dL
+  2018-08-24 00:42   MCV [Entitic volume] by Automated count: 85.7 fL
+  2018-08-24 00:42   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 7.0 {score}
+  2018-08-24 00:42   Platelet distribution width [Entitic volume] in Blood by Automated count: 377.8 fL
+  2018-08-24 00:42   Platelet mean volume [Entitic volume] in Blood by Automated count: 11.6 fL
+  2018-08-24 00:42   Platelets [#/volume] in Blood by Automated count: 240.2 10*3/uL
+  2018-08-24 00:42   Potassium: 5.1 mmol/L
+  2018-08-24 00:42   Protein [Mass/volume] in Serum or Plasma: 74.2 g/dL
+  2018-08-24 00:42   Protein [Mass/volume] in Urine by Test strip: 289.4 mg/dL
+  2018-08-24 00:42   Sodium: 143.5 mmol/L
+  2018-08-24 00:42   Specific gravity of Urine by Test strip: 1.0 {nominal}
+  2018-08-24 00:42   Urea Nitrogen: 18.6 mg/dL
+  2018-08-24 00:42   pH of Urine by Test strip: 6.3 pH
+
+Medications started during this encounter:
+  2018-08-24 00:42   Cisplatin 50 MG Injection
+  2018-08-24 00:42   PACLitaxel 100 MG Injection",True,"2 SIRS criteria met: white blood cell count 0.8 10*3/uL at 2018-08-24 00:42; temperature 38.4 Cel at 2018-08-24 00:42. Two or more criteria were met. A lactate of 3.4 mmol/L drawn on arrival supports this, as does the attending's note describing the patient as septic-appearing."
+EVAL-0002,test,SIRS,"Were two or more manifestations of systemic inflammatory response syndrome (SIRS) present during this encounter? If so, list each criterion met with its value and time.","ENCOUNTER efa10b9c — outpatient, 2014-10-30 19:48
+Patient: 52-year-old, sex M.
+Reason for encounter: Encounter for problem (procedure).
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  2014-10-30 19:48   Body Height: 182.6 cm
+  2014-10-30 19:48   Body Mass Index: 30.3 kg/m2
+  2014-10-30 19:48   Body Weight: 101.0 kg
+  2014-10-30 19:48   Diastolic Blood Pressure: 73.0 mm[Hg]
+  2014-10-30 19:48   Erythrocyte distribution width [Entitic volume] by Automated count: 40.6 fL
+  2014-10-30 19:48   Erythrocytes [#/volume] in Blood by Automated count: 5.0 10*6/uL
+  2014-10-30 19:48   Heart rate: 97.0 /min
+  2014-10-30 19:48   Hematocrit [Volume Fraction] of Blood by Automated count: 41.9 %
+  2014-10-30 19:48   Hemoglobin [Mass/volume] in Blood: 16.4 g/dL
+  2014-10-30 19:48   Leukocytes [#/volume] in Blood by Automated count: 3.8 10*3/uL
+  2014-10-30 19:48   MCH [Entitic mass] by Automated count: 29.2 pg
+  2014-10-30 19:48   MCHC [Mass/volume] by Automated count: 34.4 g/dL
+  2014-10-30 19:48   MCV [Entitic volume] by Automated count: 90.4 fL
+  2014-10-30 19:48   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 2.0 {score}
+  2014-10-30 19:48   Platelet distribution width [Entitic volume] in Blood by Automated count: 258.2 fL
+  2014-10-30 19:48   Platelet mean volume [Entitic volume] in Blood by Automated count: 10.0 fL
+  2014-10-30 19:48   Platelets [#/volume] in Blood by Automated count: 395.7 10*3/uL
+  2014-10-30 19:48   Respiratory rate: 14.0 /min
+  2014-10-30 19:48   Systolic Blood Pressure: 109.0 mm[Hg]
+
+Medications started during this encounter: none recorded.",False,On review the criteria were not met.
+EVAL-0003,test,SIRS,"Were two or more manifestations of systemic inflammatory response syndrome (SIRS) present during this encounter? If so, list each criterion met with its value and time.","ENCOUNTER 558d43d4 — ambulatory, 2007-11-08 12:21
+Patient: 60-year-old, sex M.
+Reason for encounter: Streptococcal sore throat (disorder).
+Active problems: Streptococcal sore throat (disorder).
+
+Observations recorded during this encounter:
+  2007-11-14 12:21   Body Height: 186.8 cm
+  2007-11-14 12:21   Body Mass Index: 27.8 kg/m2
+  2007-11-14 12:21   Body Weight: 97.1 kg
+  2007-11-08 12:21   Body temperature: 38.8 Cel
+  2007-11-14 12:21   Diastolic Blood Pressure: 84.0 mm[Hg]
+  2007-11-14 12:21   Heart rate: 94.0 /min
+  2007-11-14 12:21   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 1.0 {score}
+  2007-11-14 12:21   Respiratory rate: 12.0 /min
+  2007-11-14 12:21   Systolic Blood Pressure: 109.0 mm[Hg]
+
+Medications started during this encounter:
+  2007-11-08 12:21   Penicillin V Potassium 500 MG Oral Tablet",True,2 SIRS criteria met: temperature 38.8 Cel at 2007-11-08 12:21; heart rate 94.0 /min at 2007-11-14 12:21. Two or more criteria were met.
+EVAL-0004,dev,SIRS,"Were two or more manifestations of systemic inflammatory response syndrome (SIRS) present during this encounter? If so, list each criterion met with its value and time.","ENCOUNTER f6825e0d — ambulatory, 1988-02-24 08:43
+Patient: 63-year-old, sex M.
+Reason for encounter: Neoplasm of prostate.
+Active problems: Neoplasm of prostate, Carcinoma in situ of prostate (disorder).
+
+Observations recorded during this encounter:
+  1988-02-24 08:43   Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 38.0 U/L
+  1988-02-24 08:43   Albumin [Mass/volume] in Serum or Plasma: 5.4 g/dL
+  1988-02-24 08:43   Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma: 62.6 U/L
+  1988-02-24 08:43   Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 35.4 U/L
+  1988-02-24 08:43   Bilirubin.total [Mass/volume] in Serum or Plasma: 0.8 mg/dL
+  1988-02-24 08:43   Bilirubin.total [Mass/volume] in Urine by Test strip: 1.4 mg/dL
+  1988-02-24 08:43   Body Height: 168.4 cm
+  1988-02-24 08:43   Body Mass Index: 27.5 kg/m2
+  1988-02-24 08:43   Body Weight: 78.0 kg
+  1988-02-24 08:43   Calcium: 9.9 mg/dL
+  1988-02-24 08:43   Carbon Dioxide: 20.7 mmol/L
+  1988-02-24 08:43   Chloride: 105.1 mmol/L
+  1988-02-24 08:43   Creatinine: 2.9 mg/dL
+  1988-02-24 08:43   Creatinine: 1.0 mg/dL
+  1988-02-24 08:43   Diastolic Blood Pressure: 84.0 mm[Hg]
+  1988-02-24 08:43   Erythrocyte distribution width [Entitic volume] by Automated count: 42.0 fL
+  1988-02-24 08:43   Erythrocytes [#/volume] in Blood by Automated count: 4.0 10*6/uL
+  1988-02-24 08:43   FEV1/FVC: 62.9 %
+  1988-02-24 08:43   Globulin [Mass/volume] in Serum by calculation: 2.8 g/L
+  1988-02-24 08:43   Glomerular filtration rate/1.73 sq M.predicted: 4.5 mL/min
+  1988-02-24 08:43   Glucose: 97.5 mg/dL
+  1988-02-24 08:43   Glucose [Mass/volume] in Urine by Test strip: 1.1 mg/dL
+  1988-02-24 08:43   Heart rate: 93.0 /min
+  1988-02-24 08:43   Hematocrit [Volume Fraction] of Blood by Automated count: 50.0 %
+  1988-02-24 08:43   Hemoglobin A1c/Hemoglobin.total in Blood: 6.3 %
+  1988-02-24 08:43   Hemoglobin [Mass/volume] in Blood: 12.2 g/dL
+  1988-02-24 08:43   Ketones [Mass/volume] in Urine by Test strip: 7.8 mg/dL
+  1988-02-24 08:43   Leukocytes [#/volume] in Blood by Automated count: 3.0 10*3/uL
+  1988-02-24 08:43   MCH [Entitic mass] by Automated count: 27.9 pg
+  1988-02-24 08:43   MCHC [Mass/volume] by Automated count: 34.6 g/dL
+  1988-02-24 08:43   MCV [Entitic volume] by Automated count: 84.9 fL
+  1988-02-24 08:43   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 2.0 {score}
+  1988-02-24 08:43   Platelet distribution width [Entitic volume] in Blood by Automated count: 258.3 fL
+  1988-02-24 08:43   Platelet mean volume [Entitic volume] in Blood by Automated count: 12.1 fL
+  1988-02-24 08:43   Platelets [#/volume] in Blood by Automated count: 279.3 10*3/uL
+  1988-02-24 08:43   Potassium: 4.8 mmol/L
+  1988-02-24 08:43   Protein [Mass/volume] in Serum or Plasma: 79.1 g/dL
+  1988-02-24 08:43   Protein [Mass/volume] in Urine by Test strip: 384.2 mg/dL
+  1988-02-24 08:43   Respiratory rate: 15.0 /min
+  1988-02-24 08:43   Sodium: 138.9 mmol/L
+  1988-02-24 08:43   Specific gravity of Urine by Test strip: 1.0 {nominal}
+  1988-02-24 08:43   Systolic Blood Pressure: 134.0 mm[Hg]
+  1988-02-24 08:43   Urea Nitrogen: 11.1 mg/dL
+  1988-02-24 08:43   pH of Urine by Test strip: 6.3 pH
+
+Medications started during this encounter:
+  1988-02-24 08:43   1 ML DOCEtaxel 20 MG/ML Injection
+  1988-02-24 08:43   0.25 ML Leuprolide Acetate 30 MG/ML Prefilled Syringe
+  1988-02-24 08:43   Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet
+  1988-02-24 08:43   Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray
+  1988-02-24 08:43   60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler",True,2 SIRS criteria met: white blood cell count 3.0 10*3/uL at 1988-02-24 08:43; heart rate 93.0 /min at 1988-02-24 08:43. Two or more criteria were met.
+EVAL-0005,test,SIRS,"Were two or more manifestations of systemic inflammatory response syndrome (SIRS) present during this encounter? If so, list each criterion met with its value and time.","ENCOUNTER 87ac25d7 — ambulatory, 1976-10-03 19:05
+Patient: 65-year-old, sex M.
+Reason for encounter: Neoplasm of prostate.
+Active problems: Neoplasm of prostate, Carcinoma in situ of prostate (disorder).
+
+Observations recorded during this encounter:
+  1976-10-03 19:05   Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 54.9 U/L
+  1976-10-03 19:05   Albumin [Mass/volume] in Serum or Plasma: 4.4 g/dL
+  1976-10-03 19:05   Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma: 35.5 U/L
+  1976-10-03 19:05   Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 29.1 U/L
+  1976-10-03 19:05   Bilirubin.total [Mass/volume] in Serum or Plasma: 1.1 mg/dL
+  1976-10-03 19:05   Bilirubin.total [Mass/volume] in Urine by Test strip: 1.3 mg/dL
+  1976-10-03 19:05   Body Height: 181.2 cm
+  1976-10-03 19:05   Body Mass Index: 28.8 kg/m2
+  1976-10-03 19:05   Body Weight: 94.4 kg
+  1976-10-03 19:05   Calcium: 10.0 mg/dL
+  1976-10-03 19:05   Carbon Dioxide: 20.2 mmol/L
+  1976-10-03 19:05   Chloride: 106.0 mmol/L
+  1976-10-03 19:05   Creatinine: 3.3 mg/dL
+  1976-10-03 19:05   Creatinine: 1.1 mg/dL
+  1976-10-03 19:05   Diastolic Blood Pressure: 81.0 mm[Hg]
+  1976-10-03 19:05   Erythrocyte distribution width [Entitic volume] by Automated count: 41.3 fL
+  1976-10-03 19:05   Erythrocytes [#/volume] in Blood by Automated count: 4.8 10*6/uL
+  1976-10-03 19:05   Globulin [Mass/volume] in Serum by calculation: 2.1 g/L
+  1976-10-03 19:05   Glomerular filtration rate/1.73 sq M.predicted: 12.4 mL/min
+  1976-10-03 19:05   Glucose: 68.3 mg/dL
+  1976-10-03 19:05   Glucose [Mass/volume] in Urine by Test strip: 0.6 mg/dL
+  1976-10-03 19:05   Heart rate: 94.0 /min
+  1976-10-03 19:05   Hematocrit [Volume Fraction] of Blood by Automated count: 43.0 %
+  1976-10-03 19:05   Hemoglobin A1c/Hemoglobin.total in Blood: 6.2 %
+  1976-10-03 19:05   Hemoglobin [Mass/volume] in Blood: 15.6 g/dL
+  1976-10-03 19:05   Ketones [Mass/volume] in Urine by Test strip: 16.7 mg/dL
+  1976-10-03 19:05   Leukocytes [#/volume] in Blood by Automated count: 3.9 10*3/uL
+  1976-10-03 19:05   MCH [Entitic mass] by Automated count: 27.4 pg
+  1976-10-03 19:05   MCHC [Mass/volume] by Automated count: 33.3 g/dL
+  1976-10-03 19:05   MCV [Entitic volume] by Automated count: 80.2 fL
+  1976-10-03 19:05   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 2.0 {score}
+  1976-10-03 19:05   Platelet distribution width [Entitic volume] in Blood by Automated count: 512.6 fL
+  1976-10-03 19:05   Platelet mean volume [Entitic volume] in Blood by Automated count: 9.8 fL
+  1976-10-03 19:05   Platelets [#/volume] in Blood by Automated count: 331.7 10*3/uL
+  1976-10-03 19:05   Potassium: 3.9 mmol/L
+  1976-10-03 19:05   Protein [Mass/volume] in Serum or Plasma: 77.6 g/dL
+  1976-10-03 19:05   Protein [Mass/volume] in Urine by Test strip: 384.7 mg/dL
+  1976-10-03 19:05   Respiratory rate: 13.0 /min
+  1976-10-03 19:05   Sodium: 136.4 mmol/L
+  1976-10-03 19:05   Specific gravity of Urine by Test strip: 1.0 {nominal}
+  1976-10-03 19:05   Systolic Blood Pressure: 132.0 mm[Hg]
+  1976-10-03 19:05   Urea Nitrogen: 13.6 mg/dL
+  1976-10-03 19:05   pH of Urine by Test strip: 5.9 pH
+
+Medications started during this encounter:
+  1976-10-03 19:05   1 ML DOCEtaxel 20 MG/ML Injection
+  1976-10-03 19:05   0.25 ML Leuprolide Acetate 30 MG/ML Prefilled Syringe
+  1976-10-03 19:05   Hydrochlorothiazide 25 MG Oral Tablet",True,2 SIRS criteria met: white blood cell count 3.9 10*3/uL at 1976-10-03 19:05; heart rate 94.0 /min at 1976-10-03 19:05. Two or more criteria were met.
+EVAL-0006,test,SIRS,"Were two or more manifestations of systemic inflammatory response syndrome (SIRS) present during this encounter? If so, list each criterion met with its value and time.","ENCOUNTER 56384933 — inpatient, 2014-04-19 00:42
+Patient: 49-year-old, sex M.
+Reason for encounter: Encounter for problem.
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  2014-04-19 00:42   Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 49.8 U/L
+  2014-04-19 00:42   Albumin [Mass/volume] in Serum or Plasma: 5.0 g/dL
+  2014-04-19 00:42   Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma: 52.7 U/L
+  2014-04-19 00:42   Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 37.3 U/L
+  2014-04-19 00:42   Bilirubin.total [Mass/volume] in Serum or Plasma: 0.2 mg/dL
+  2014-04-19 00:42   Bilirubin.total [Mass/volume] in Urine by Test strip: 0.9 mg/dL
+  2014-04-19 00:42   Body temperature: 38.6 Cel
+  2014-04-19 00:42   Calcium: 9.9 mg/dL
+  2014-04-19 00:42   Carbon Dioxide: 23.2 mmol/L
+  2014-04-19 00:42   Chloride: 104.2 mmol/L
+  2014-04-19 00:42   Creatinine: 2.8 mg/dL
+  2014-04-19 00:42   Erythrocyte distribution width [Entitic volume] by Automated count: 39.4 fL
+  2014-04-19 00:42   Erythrocytes [#/volume] in Blood by Automated count: 4.4 10*6/uL
+  2014-04-19 00:42   Globulin [Mass/volume] in Serum by calculation: 2.5 g/L
+  2014-04-19 00:42   Glomerular filtration rate/1.73 sq M.predicted: 14.0 mL/min
+  2014-04-19 00:42   Glucose: 64.6 mg/dL
+  2014-04-19 00:42   Glucose [Mass/volume] in Urine by Test strip: 1.8 mg/dL
+  2014-04-19 00:42   Hematocrit [Volume Fraction] of Blood by Automated count: 43.3 %
+  2014-04-19 00:42   Hemoglobin [Mass/volume] in Blood: 16.0 g/dL
+  2014-04-19 00:42   Ketones [Mass/volume] in Urine by Test strip: 11.0 mg/dL
+  2014-04-19 00:42   Leukocytes [#/volume] in Blood by Automated count: 1.6 10*3/uL
+  2014-04-19 00:42   MCH [Entitic mass] by Automated count: 32.9 pg
+  2014-04-19 00:42   MCHC [Mass/volume] by Automated count: 35.1 g/dL
+  2014-04-19 00:42   MCV [Entitic volume] by Automated count: 85.3 fL
+  2014-04-19 00:42   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 7.0 {score}
+  2014-04-19 00:42   Platelet distribution width [Entitic volume] in Blood by Automated count: 392.1 fL
+  2014-04-19 00:42   Platelet mean volume [Entitic volume] in Blood by Automated count: 9.6 fL
+  2014-04-19 00:42   Platelets [#/volume] in Blood by Automated count: 392.8 10*3/uL
+  2014-04-19 00:42   Potassium: 4.0 mmol/L
+  2014-04-19 00:42   Protein [Mass/volume] in Serum or Plasma: 71.2 g/dL
+  2014-04-19 00:42   Protein [Mass/volume] in Urine by Test strip: 321.2 mg/dL
+  2014-04-19 00:42   Sodium: 143.3 mmol/L
+  2014-04-19 00:42   Specific gravity of Urine by Test strip: 1.0 {nominal}
+  2014-04-19 00:42   Urea Nitrogen: 18.2 mg/dL
+  2014-04-19 00:42   pH of Urine by Test strip: 6.6 pH
+
+Medications started during this encounter:
+  2014-04-19 00:42   Cisplatin 50 MG Injection
+  2014-04-19 00:42   PACLitaxel 100 MG Injection",True,2 SIRS criteria met: white blood cell count 1.6 10*3/uL at 2014-04-19 00:42; temperature 38.6 Cel at 2014-04-19 00:42. Two or more criteria were met.
+EVAL-0007,test,SIRS,"Were two or more manifestations of systemic inflammatory response syndrome (SIRS) present during this encounter? If so, list each criterion met with its value and time.","ENCOUNTER dbf7b9e0 — inpatient, 2013-10-06 00:42
+Patient: 48-year-old, sex M.
+Reason for encounter: Encounter for problem.
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  2013-10-06 00:42   Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 23.8 U/L
+  2013-10-06 00:42   Albumin [Mass/volume] in Serum or Plasma: 5.2 g/dL
+  2013-10-06 00:42   Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma: 91.9 U/L
+  2013-10-06 00:42   Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 36.4 U/L
+  2013-10-06 00:42   Bilirubin.total [Mass/volume] in Serum or Plasma: 0.4 mg/dL
+  2013-10-06 00:42   Bilirubin.total [Mass/volume] in Urine by Test strip: 1.5 mg/dL
+  2013-10-06 00:42   Body temperature: 38.9 Cel
+  2013-10-06 00:42   Calcium: 8.8 mg/dL
+  2013-10-06 00:42   Carbon Dioxide: 27.9 mmol/L
+  2013-10-06 00:42   Chloride: 103.4 mmol/L
+  2013-10-06 00:42   Creatinine: 3.3 mg/dL
+  2013-10-06 00:42   Erythrocyte distribution width [Entitic volume] by Automated count: 40.6 fL
+  2013-10-06 00:42   Erythrocytes [#/volume] in Blood by Automated count: 4.3 10*6/uL
+  2013-10-06 00:42   Globulin [Mass/volume] in Serum by calculation: 2.2 g/L
+  2013-10-06 00:42   Glomerular filtration rate/1.73 sq M.predicted: 6.4 mL/min
+  2013-10-06 00:42   Glucose: 78.6 mg/dL
+  2013-10-06 00:42   Glucose [Mass/volume] in Urine by Test strip: 1.4 mg/dL
+  2013-10-06 00:42   Hematocrit [Volume Fraction] of Blood by Automated count: 43.7 %
+  2013-10-06 00:42   Hemoglobin [Mass/volume] in Blood: 12.9 g/dL
+  2013-10-06 00:42   Ketones [Mass/volume] in Urine by Test strip: 4.6 mg/dL
+  2013-10-06 00:42   Leukocytes [#/volume] in Blood by Automated count: 1.1 10*3/uL
+  2013-10-06 00:42   MCH [Entitic mass] by Automated count: 30.6 pg
+  2013-10-06 00:42   MCHC [Mass/volume] by Automated count: 34.3 g/dL
+  2013-10-06 00:42   MCV [Entitic volume] by Automated count: 89.8 fL
+  2013-10-06 00:42   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 6.0 {score}
+  2013-10-06 00:42   Platelet distribution width [Entitic volume] in Blood by Automated count: 496.6 fL
+  2013-10-06 00:42   Platelet mean volume [Entitic volume] in Blood by Automated count: 10.5 fL
+  2013-10-06 00:42   Platelets [#/volume] in Blood by Automated count: 188.4 10*3/uL
+  2013-10-06 00:42   Potassium: 4.2 mmol/L
+  2013-10-06 00:42   Protein [Mass/volume] in Serum or Plasma: 79.4 g/dL
+  2013-10-06 00:42   Protein [Mass/volume] in Urine by Test strip: 431.7 mg/dL
+  2013-10-06 00:42   Sodium: 142.3 mmol/L
+  2013-10-06 00:42   Specific gravity of Urine by Test strip: 1.0 {nominal}
+  2013-10-06 00:42   Urea Nitrogen: 9.2 mg/dL
+  2013-10-06 00:42   pH of Urine by Test strip: 5.4 pH
+
+Medications started during this encounter:
+  2013-10-06 00:42   Cisplatin 50 MG Injection
+  2013-10-06 00:42   PACLitaxel 100 MG Injection",False,On review the criteria were not met.
+EVAL-0008,dev,SIRS,"Were two or more manifestations of systemic inflammatory response syndrome (SIRS) present during this encounter? If so, list each criterion met with its value and time.","ENCOUNTER 47844ae8 — ambulatory, 2002-06-05 00:59
+Patient: 62-year-old, sex M.
+Reason for encounter: Neoplasm of prostate.
+Active problems: Neoplasm of prostate, Carcinoma in situ of prostate (disorder).
+
+Observations recorded during this encounter:
+  2002-06-05 00:59   Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 59.1 U/L
+  2002-06-05 00:59   Albumin [Mass/volume] in Serum or Plasma: 5.0 g/dL
+  2002-06-05 00:59   Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma: 28.8 U/L
+  2002-06-05 00:59   Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 6.6 U/L
+  2002-06-05 00:59   Bilirubin.total [Mass/volume] in Serum or Plasma: 0.8 mg/dL
+  2002-06-05 00:59   Bilirubin.total [Mass/volume] in Urine by Test strip: 1.0 mg/dL
+  2002-06-05 00:59   Body Height: 177.7 cm
+  2002-06-05 00:59   Body Mass Index: 30.3 kg/m2
+  2002-06-05 00:59   Body Weight: 95.7 kg
+  2002-06-05 00:59   Calcium: 9.0 mg/dL
+  2002-06-05 00:59   Carbon Dioxide: 22.3 mmol/L
+  2002-06-05 00:59   Chloride: 108.3 mmol/L
+  2002-06-05 00:59   Creatinine: 3.2 mg/dL
+  2002-06-05 00:59   Creatinine: 2.0 mg/dL
+  2002-06-05 00:59   Diastolic Blood Pressure: 71.0 mm[Hg]
+  2002-06-05 00:59   Erythrocyte distribution width [Entitic volume] by Automated count: 41.6 fL
+  2002-06-05 00:59   Erythrocytes [#/volume] in Blood by Automated count: 4.0 10*6/uL
+  2002-06-05 00:59   Estimated Glomerular Filtration Rate: 51.6 mL/min/{1.73_m2}
+  2002-06-05 00:59   Globulin [Mass/volume] in Serum by calculation: 2.0 g/L
+  2002-06-05 00:59   Glomerular filtration rate/1.73 sq M.predicted: 13.2 mL/min
+  2002-06-05 00:59   Glucose: 73.6 mg/dL
+  2002-06-05 00:59   Glucose [Mass/volume] in Urine by Test strip: 1.6 mg/dL
+  2002-06-05 00:59   Heart rate: 93.0 /min
+  2002-06-05 00:59   Hematocrit [Volume Fraction] of Blood by Automated count: 41.3 %
+  2002-06-05 00:59   Hemoglobin A1c/Hemoglobin.total in Blood: 3.1 %
+  2002-06-05 00:59   Hemoglobin [Mass/volume] in Blood: 14.1 g/dL
+  2002-06-05 00:59   High Density Lipoprotein Cholesterol: 62.8 mg/dL
+  2002-06-05 00:59   Ketones [Mass/volume] in Urine by Test strip: 5.0 mg/dL
+  2002-06-05 00:59   Leukocytes [#/volume] in Blood by Automated count: 2.5 10*3/uL
+  2002-06-05 00:59   Low Density Lipoprotein Cholesterol: 98.5 mg/dL
+  2002-06-05 00:59   MCH [Entitic mass] by Automated count: 32.4 pg
+  2002-06-05 00:59   MCHC [Mass/volume] by Automated count: 35.4 g/dL
+  2002-06-05 00:59   MCV [Entitic volume] by Automated count: 92.4 fL
+  2002-06-05 00:59   Microalbumin Creatinine Ratio: 24.9 mg/g
+  2002-06-05 00:59   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 2.0 {score}
+  2002-06-05 00:59   Platelet distribution width [Entitic volume] in Blood by Automated count: 442.1 fL
+  2002-06-05 00:59   Platelet mean volume [Entitic volume] in Blood by Automated count: 10.8 fL
+  2002-06-05 00:59   Platelets [#/volume] in Blood by Automated count: 316.9 10*3/uL
+  2002-06-05 00:59   Potassium: 4.6 mmol/L
+  2002-06-05 00:59   Protein [Mass/volume] in Serum or Plasma: 70.4 g/dL
+  2002-06-05 00:59   Protein [Mass/volume] in Urine by Test strip: 282.0 mg/dL
+  2002-06-05 00:59   Respiratory rate: 13.0 /min
+  2002-06-05 00:59   Sodium: 141.9 mmol/L
+  2002-06-05 00:59   Specific gravity of Urine by Test strip: 1.0 {nominal}
+  2002-06-05 00:59   Systolic Blood Pressure: 128.0 mm[Hg]
+  2002-06-05 00:59   Total Cholesterol: 185.6 mg/dL
+  2002-06-05 00:59   Triglycerides: 121.1 mg/dL
+  2002-06-05 00:59   Urea Nitrogen: 16.0 mg/dL
+  2002-06-05 00:59   pH of Urine by Test strip: 6.9 pH
+
+Medications started during this encounter:
+  2002-06-05 00:59   1 ML DOCEtaxel 20 MG/ML Injection
+  2002-06-05 00:59   0.25 ML Leuprolide Acetate 30 MG/ML Prefilled Syringe
+  2002-06-05 00:59   insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin]
+  2002-06-05 00:59   24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet",True,2 SIRS criteria met: white blood cell count 2.5 10*3/uL at 2002-06-05 00:59; heart rate 93.0 /min at 2002-06-05 00:59. Two or more criteria were met.
+EVAL-0009,test,SIRS,"Were two or more manifestations of systemic inflammatory response syndrome (SIRS) present during this encounter? If so, list each criterion met with its value and time.","ENCOUNTER 6f136f90 — ambulatory, 2018-07-04 02:34
+Patient: 15-year-old, sex F.
+Reason for encounter: Streptococcal sore throat (disorder).
+Active problems: Streptococcal sore throat (disorder).
+
+Observations recorded during this encounter:
+  2018-07-10 02:34   Body Height: 162.7 cm
+  2018-07-10 02:34   Body Mass Index: 22.6 kg/m2
+  2018-07-10 02:34   Body Weight: 59.8 kg
+  2018-07-10 02:34   Body mass index (BMI) [Percentile] Per age and gender: 76.8 %
+  2018-07-04 02:34   Body temperature: 38.4 Cel
+  2018-07-10 02:34   Diastolic Blood Pressure: 72.0 mm[Hg]
+  2018-07-10 02:34   Heart rate: 93.0 /min
+  2018-07-10 02:34   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 3.0 {score}
+  2018-07-10 02:34   Respiratory rate: 13.0 /min
+  2018-07-10 02:34   Systolic Blood Pressure: 124.0 mm[Hg]
+
+Medications started during this encounter:
+  2018-07-04 02:34   Penicillin V Potassium 250 MG Oral Tablet",True,"2 SIRS criteria met: temperature 38.4 Cel at 2018-07-04 02:34; heart rate 93.0 /min at 2018-07-10 02:34. Two or more criteria were met. A lactate of 3.4 mmol/L drawn on arrival supports this, as does the attending's note describing the patient as septic-appearing."
+EVAL-0010,test,SIRS,"Were two or more manifestations of systemic inflammatory response syndrome (SIRS) present during this encounter? If so, list each criterion met with its value and time.","ENCOUNTER dd1f112c — inpatient, 2012-07-05 06:09
+Patient: 51-year-old, sex F.
+Reason for encounter: Encounter for problem.
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  2012-07-05 06:09   Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 54.5 U/L
+  2012-07-05 06:09   Albumin [Mass/volume] in Serum or Plasma: 4.8 g/dL
+  2012-07-05 06:09   Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma: 129.4 U/L
+  2012-07-05 06:09   Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 34.1 U/L
+  2012-07-05 06:09   Bilirubin.total [Mass/volume] in Serum or Plasma: 0.3 mg/dL
+  2012-07-05 06:09   Bilirubin.total [Mass/volume] in Urine by Test strip: 0.8 mg/dL
+  2012-07-05 06:09   Body temperature: 39.3 Cel
+  2012-07-05 06:09   Calcium: 10.0 mg/dL
+  2012-07-05 06:09   Carbon Dioxide: 23.8 mmol/L
+  2012-07-05 06:09   Chloride: 101.2 mmol/L
+  2012-07-05 06:09   Creatinine: 3.3 mg/dL
+  2012-07-05 06:09   Erythrocyte distribution width [Entitic volume] by Automated count: 40.9 fL
+  2012-07-05 06:09   Erythrocytes [#/volume] in Blood by Automated count: 4.2 10*6/uL
+  2012-07-05 06:09   Globulin [Mass/volume] in Serum by calculation: 2.2 g/L
+  2012-07-05 06:09   Glomerular filtration rate/1.73 sq M.predicted: 15.6 mL/min
+  2012-07-05 06:09   Glucose: 84.3 mg/dL
+  2012-07-05 06:09   Glucose [Mass/volume] in Urine by Test strip: 1.7 mg/dL
+  2012-07-05 06:09   Hematocrit [Volume Fraction] of Blood by Automated count: 41.4 %
+  2012-07-05 06:09   Hemoglobin [Mass/volume] in Blood: 14.4 g/dL
+  2012-07-05 06:09   Ketones [Mass/volume] in Urine by Test strip: 10.8 mg/dL
+  2012-07-05 06:09   Leukocytes [#/volume] in Blood by Automated count: 1.9 10*3/uL
+  2012-07-05 06:09   MCH [Entitic mass] by Automated count: 30.2 pg
+  2012-07-05 06:09   MCHC [Mass/volume] by Automated count: 34.8 g/dL
+  2012-07-05 06:09   MCV [Entitic volume] by Automated count: 94.7 fL
+  2012-07-05 06:09   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 7.0 {score}
+  2012-07-05 06:09   Platelet distribution width [Entitic volume] in Blood by Automated count: 442.8 fL
+  2012-07-05 06:09   Platelet mean volume [Entitic volume] in Blood by Automated count: 11.5 fL
+  2012-07-05 06:09   Platelets [#/volume] in Blood by Automated count: 217.6 10*3/uL
+  2012-07-05 06:09   Potassium: 5.1 mmol/L
+  2012-07-05 06:09   Protein [Mass/volume] in Serum or Plasma: 68.9 g/dL
+  2012-07-05 06:09   Protein [Mass/volume] in Urine by Test strip: 415.2 mg/dL
+  2012-07-05 06:09   Sodium: 138.3 mmol/L
+  2012-07-05 06:09   Specific gravity of Urine by Test strip: 1.0 {nominal}
+  2012-07-05 06:09   Urea Nitrogen: 8.9 mg/dL
+  2012-07-05 06:09   pH of Urine by Test strip: 6.4 pH
+
+Medications started during this encounter:
+  2012-07-05 06:09   Cisplatin 50 MG Injection
+  2012-07-05 06:09   PACLitaxel 100 MG Injection",True,2 SIRS criteria met: white blood cell count 1.9 10*3/uL at 2012-07-05 06:09; temperature 39.3 Cel at 2012-07-05 06:09. Two or more criteria were met.
+EVAL-0011,test,SIRS,"Were two or more manifestations of systemic inflammatory response syndrome (SIRS) present during this encounter? If so, list each criterion met with its value and time.","ENCOUNTER 53fc53b5 — inpatient, 2008-04-16 06:49
+Patient: 62-year-old, sex F.
+Reason for encounter: Encounter for problem.
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  2008-04-16 06:49   Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 48.5 U/L
+  2008-04-16 06:49   Albumin [Mass/volume] in Serum or Plasma: 4.9 g/dL
+  2008-04-16 06:49   Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma: 138.4 U/L
+  2008-04-16 06:49   Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 21.2 U/L
+  2008-04-16 06:49   Bilirubin.total [Mass/volume] in Serum or Plasma: 1.0 mg/dL
+  2008-04-16 06:49   Bilirubin.total [Mass/volume] in Urine by Test strip: 1.1 mg/dL
+  2008-04-16 06:49   Body temperature: 38.6 Cel
+  2008-04-16 06:49   Calcium: 8.9 mg/dL
+  2008-04-16 06:49   Carbon Dioxide: 22.8 mmol/L
+  2008-04-16 06:49   Chloride: 109.3 mmol/L
+  2008-04-16 06:49   Creatinine: 3.1 mg/dL
+  2008-04-16 06:49   Erythrocyte distribution width [Entitic volume] by Automated count: 45.8 fL
+  2008-04-16 06:49   Erythrocytes [#/volume] in Blood by Automated count: 4.8 10*6/uL
+  2008-04-16 06:49   Globulin [Mass/volume] in Serum by calculation: 3.4 g/L
+  2008-04-16 06:49   Glomerular filtration rate/1.73 sq M.predicted: 9.3 mL/min
+  2008-04-16 06:49   Glucose: 93.6 mg/dL
+  2008-04-16 06:49   Glucose [Mass/volume] in Urine by Test strip: 1.3 mg/dL
+  2008-04-16 06:49   Hematocrit [Volume Fraction] of Blood by Automated count: 40.4 %
+  2008-04-16 06:49   Hemoglobin [Mass/volume] in Blood: 15.8 g/dL
+  2008-04-16 06:49   Ketones [Mass/volume] in Urine by Test strip: 10.6 mg/dL
+  2008-04-16 06:49   Leukocytes [#/volume] in Blood by Automated count: 3.8 10*3/uL
+  2008-04-16 06:49   MCH [Entitic mass] by Automated count: 28.1 pg
+  2008-04-16 06:49   MCHC [Mass/volume] by Automated count: 34.5 g/dL
+  2008-04-16 06:49   MCV [Entitic volume] by Automated count: 89.4 fL
+  2008-04-16 06:49   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 8.0 {score}
+  2008-04-16 06:49   Platelet distribution width [Entitic volume] in Blood by Automated count: 211.2 fL
+  2008-04-16 06:49   Platelet mean volume [Entitic volume] in Blood by Automated count: 12.0 fL
+  2008-04-16 06:49   Platelets [#/volume] in Blood by Automated count: 352.8 10*3/uL
+  2008-04-16 06:49   Potassium: 4.5 mmol/L
+  2008-04-16 06:49   Protein [Mass/volume] in Serum or Plasma: 71.2 g/dL
+  2008-04-16 06:49   Protein [Mass/volume] in Urine by Test strip: 306.7 mg/dL
+  2008-04-16 06:49   Sodium: 142.5 mmol/L
+  2008-04-16 06:49   Specific gravity of Urine by Test strip: 1.0 {nominal}
+  2008-04-16 06:49   Urea Nitrogen: 14.0 mg/dL
+  2008-04-16 06:49   pH of Urine by Test strip: 6.1 pH
+
+Medications started during this encounter:
+  2008-04-16 06:49   Cisplatin 50 MG Injection
+  2008-04-16 06:49   PACLitaxel 100 MG Injection",True,2 SIRS criteria met: white blood cell count 3.8 10*3/uL at 2008-04-16 06:49; temperature 38.6 Cel at 2008-04-16 06:49. Two or more criteria were met.
+EVAL-0012,dev,SIRS,"Were two or more manifestations of systemic inflammatory response syndrome (SIRS) present during this encounter? If so, list each criterion met with its value and time.","ENCOUNTER 31da3f84 — inpatient, 2008-03-14 06:49
+Patient: 62-year-old, sex F.
+Reason for encounter: Encounter for problem.
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  2008-03-14 06:49   Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 56.3 U/L
+  2008-03-14 06:49   Albumin [Mass/volume] in Serum or Plasma: 4.3 g/dL
+  2008-03-14 06:49   Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma: 102.4 U/L
+  2008-03-14 06:49   Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 28.8 U/L
+  2008-03-14 06:49   Bilirubin.total [Mass/volume] in Serum or Plasma: 0.2 mg/dL
+  2008-03-14 06:49   Bilirubin.total [Mass/volume] in Urine by Test strip: 1.5 mg/dL
+  2008-03-14 06:49   Body temperature: 39.4 Cel
+  2008-03-14 06:49   Calcium: 9.6 mg/dL
+  2008-03-14 06:49   Carbon Dioxide: 24.8 mmol/L
+  2008-03-14 06:49   Chloride: 102.7 mmol/L
+  2008-03-14 06:49   Creatinine: 2.8 mg/dL
+  2008-03-14 06:49   Erythrocyte distribution width [Entitic volume] by Automated count: 41.9 fL
+  2008-03-14 06:49   Erythrocytes [#/volume] in Blood by Automated count: 4.3 10*6/uL
+  2008-03-14 06:49   Globulin [Mass/volume] in Serum by calculation: 3.2 g/L
+  2008-03-14 06:49   Glomerular filtration rate/1.73 sq M.predicted: 21.4 mL/min
+  2008-03-14 06:49   Glucose: 79.6 mg/dL
+  2008-03-14 06:49   Glucose [Mass/volume] in Urine by Test strip: 1.5 mg/dL
+  2008-03-14 06:49   Hematocrit [Volume Fraction] of Blood by Automated count: 44.2 %
+  2008-03-14 06:49   Hemoglobin [Mass/volume] in Blood: 15.5 g/dL
+  2008-03-14 06:49   Ketones [Mass/volume] in Urine by Test strip: 3.0 mg/dL
+  2008-03-14 06:49   Leukocytes [#/volume] in Blood by Automated count: 1.5 10*3/uL
+  2008-03-14 06:49   MCH [Entitic mass] by Automated count: 28.6 pg
+  2008-03-14 06:49   MCHC [Mass/volume] by Automated count: 34.5 g/dL
+  2008-03-14 06:49   MCV [Entitic volume] by Automated count: 88.4 fL
+  2008-03-14 06:49   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 7.0 {score}
+  2008-03-14 06:49   Platelet distribution width [Entitic volume] in Blood by Automated count: 348.8 fL
+  2008-03-14 06:49   Platelet mean volume [Entitic volume] in Blood by Automated count: 9.4 fL
+  2008-03-14 06:49   Platelets [#/volume] in Blood by Automated count: 184.0 10*3/uL
+  2008-03-14 06:49   Potassium: 4.8 mmol/L
+  2008-03-14 06:49   Protein [Mass/volume] in Serum or Plasma: 60.4 g/dL
+  2008-03-14 06:49   Protein [Mass/volume] in Urine by Test strip: 355.9 mg/dL
+  2008-03-14 06:49   Sodium: 139.2 mmol/L
+  2008-03-14 06:49   Specific gravity of Urine by Test strip: 1.0 {nominal}
+  2008-03-14 06:49   Urea Nitrogen: 12.1 mg/dL
+  2008-03-14 06:49   pH of Urine by Test strip: 5.9 pH
+
+Medications started during this encounter:
+  2008-03-14 06:49   Cisplatin 50 MG Injection
+  2008-03-14 06:49   PACLitaxel 100 MG Injection",True,2 SIRS criteria met: white blood cell count 1.5 10*3/uL at 2008-03-14 06:49.
+EVAL-0013,test,SIRS,"Were two or more manifestations of systemic inflammatory response syndrome (SIRS) present during this encounter? If so, list each criterion met with its value and time.","ENCOUNTER 57ef2e51 — outpatient, 1952-09-21 19:05
+Patient: 41-year-old, sex M.
+Reason for encounter: Encounter for check up (procedure).
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  1952-09-21 19:05   insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin]",True,On review the criteria were met.
+EVAL-0014,test,SIRS,"Were two or more manifestations of systemic inflammatory response syndrome (SIRS) present during this encounter? If so, list each criterion met with its value and time.","ENCOUNTER 879d6182 — ambulatory, 1971-08-17 09:30
+Patient: 57-year-old, sex M.
+Reason for encounter: Encounter for problem (procedure).
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  1971-08-17 09:30   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 4.0 {score}
+  1971-08-17 09:30   Weight difference [Mass difference] --pre dialysis - post dialysis: 4.1 kg
+
+Medications started during this encounter:
+  1971-08-17 09:30   1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]",False,No SIRS criteria were met. Fewer than two criteria were met.
+EVAL-0015,dev,SIRS,"Were two or more manifestations of systemic inflammatory response syndrome (SIRS) present during this encounter? If so, list each criterion met with its value and time.","ENCOUNTER 3fa6a768 — emergency, 2019-05-01 14:46
+Patient: 71-year-old, sex M.
+Reason for encounter: Emergency room admission (procedure).
+Active problems: Laceration of forearm.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  2019-05-01 14:46   Acetaminophen 325 MG Oral Tablet",False,No SIRS criteria were met. Fewer than two criteria were met.
+EVAL-0016,test,SIRS,"Were two or more manifestations of systemic inflammatory response syndrome (SIRS) present during this encounter? If so, list each criterion met with its value and time.","ENCOUNTER 6cd79fdc — ambulatory, 1969-01-29 09:30
+Patient: 55-year-old, sex M.
+Reason for encounter: Encounter for problem (procedure).
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  1969-01-29 09:30   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 4.0 {score}
+  1969-01-29 09:30   Weight difference [Mass difference] --pre dialysis - post dialysis: 2.4 kg
+
+Medications started during this encounter:
+  1969-01-29 09:30   1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]",False,No SIRS criteria were met. Fewer than two criteria were met.
+EVAL-0017,test,SIRS,"Were two or more manifestations of systemic inflammatory response syndrome (SIRS) present during this encounter? If so, list each criterion met with its value and time.","ENCOUNTER 871737dd — ambulatory, 2015-04-30 01:40
+Patient: 57-year-old, sex M.
+Reason for encounter: Encounter for 'check-up'.
+Active problems: Recurrent rectal polyp.
+
+Observations recorded during this encounter:
+  2015-04-30 01:40   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 7.0 {score}
+
+Medications started during this encounter: none recorded.",False,No SIRS criteria were met. Fewer than two criteria were met.
+EVAL-0018,dev,SIRS,"Were two or more manifestations of systemic inflammatory response syndrome (SIRS) present during this encounter? If so, list each criterion met with its value and time.","ENCOUNTER 68a0032a — ambulatory, 1999-08-28 23:35
+Patient: 86-year-old, sex M.
+Reason for encounter: Encounter for problem (procedure).
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  1999-08-28 23:35   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 5.0 {score}
+  1999-08-28 23:35   Weight difference [Mass difference] --pre dialysis - post dialysis: 1.2 kg
+
+Medications started during this encounter:
+  1999-08-28 23:35   1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]",False,No SIRS criteria were met. Fewer than two criteria were met.
+EVAL-0019,test,SIRS,"Were two or more manifestations of systemic inflammatory response syndrome (SIRS) present during this encounter? If so, list each criterion met with its value and time.","ENCOUNTER 44ee7689 — ambulatory, 2011-03-15 12:21
+Patient: 64-year-old, sex M.
+Reason for encounter: Chronic congestive heart failure (disorder).
+Active problems: Chronic congestive heart failure (disorder).
+
+Observations recorded during this encounter:
+  2011-03-15 12:21   Calcium: 9.0 mg/dL
+  2011-03-15 12:21   Carbon Dioxide: 20.5 mmol/L
+  2011-03-15 12:21   Chloride: 101.7 mmol/L
+  2011-03-15 12:21   Creatinine: 1.1 mg/dL
+  2011-03-15 12:21   Glucose: 70.0 mg/dL
+  2011-03-15 12:21   NT-proBNP: 651.0 pg/mL
+  2011-03-15 12:21   Potassium: 5.0 mmol/L
+  2011-03-15 12:21   Sodium: 136.1 mmol/L
+  2011-03-15 12:21   Urea Nitrogen: 8.8 mg/dL
+
+Medications started during this encounter: none recorded.",True,On review the criteria were met.
+EVAL-0020,test,SIRS,"Were two or more manifestations of systemic inflammatory response syndrome (SIRS) present during this encounter? If so, list each criterion met with its value and time.","ENCOUNTER 1453c425 — outpatient, 2013-07-05 02:31
+Patient: 40-year-old, sex F.
+Reason for encounter: Consultation for treatment.
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  2013-07-05 02:31   Levora 0.15/30 28 Day Pack",False,No SIRS criteria were met. Fewer than two criteria were met.
+EVAL-0021,test,SIRS,"Were two or more manifestations of systemic inflammatory response syndrome (SIRS) present during this encounter? If so, list each criterion met with its value and time.","ENCOUNTER 0de9d1b9 — outpatient, 2012-09-22 22:09
+Patient: 92-year-old, sex M.
+Reason for encounter: Encounter for check up (procedure).
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  2012-09-22 22:09   Body Height: 174.7 cm
+  2012-09-22 22:09   Body Mass Index: 27.8 kg/m2
+  2012-09-22 22:09   Body Weight: 84.9 kg
+  2012-09-22 22:09   Calcium: 9.6 mg/dL
+  2012-09-22 22:09   Carbon Dioxide: 25.4 mmol/L
+  2012-09-22 22:09   Chloride: 107.1 mmol/L
+  2012-09-22 22:09   Creatinine: 2.9 mg/dL
+  2012-09-22 22:09   Diastolic Blood Pressure: 84.0 mm[Hg]
+  2012-09-22 22:09   Estimated Glomerular Filtration Rate: 19.7 mL/min/{1.73_m2}
+  2012-09-22 22:09   Glucose: 73.7 mg/dL
+  2012-09-22 22:09   Heart rate: 78.0 /min
+  2012-09-22 22:09   Hemoglobin A1c/Hemoglobin.total in Blood: 2.5 %
+  2012-09-22 22:09   High Density Lipoprotein Cholesterol: 64.3 mg/dL
+  2012-09-22 22:09   Low Density Lipoprotein Cholesterol: 89.3 mg/dL
+  2012-09-22 22:09   Microalbumin Creatinine Ratio: 61.6 mg/g
+  2012-09-22 22:09   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 2.0 {score}
+  2012-09-22 22:09   Potassium: 4.6 mmol/L
+  2012-09-22 22:09   Respiratory rate: 16.0 /min
+  2012-09-22 22:09   Sodium: 141.6 mmol/L
+  2012-09-22 22:09   Systolic Blood Pressure: 116.0 mm[Hg]
+  2012-09-22 22:09   Total Cholesterol: 179.2 mg/dL
+  2012-09-22 22:09   Triglycerides: 128.3 mg/dL
+  2012-09-22 22:09   Urea Nitrogen: 18.5 mg/dL
+
+Medications started during this encounter:
+  2012-09-22 22:09   insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin]
+  2012-09-22 22:09   24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet",False,The determination follows from the documented clinical picture and the overall trend of the recorded values.
+EVAL-0022,test,SIRS,"Were two or more manifestations of systemic inflammatory response syndrome (SIRS) present during this encounter? If so, list each criterion met with its value and time.","ENCOUNTER cca33c78 — emergency, 2017-07-22 17:28
+Patient: 43-year-old, sex F.
+Reason for encounter: Emergency room admission (procedure).
+Active problems: Fracture of forearm.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  2017-07-22 17:28   Meperidine Hydrochloride 50 MG Oral Tablet
+  2017-07-22 17:28   Acetaminophen 325 MG Oral Tablet",False,No SIRS criteria were met. Fewer than two criteria were met.
+EVAL-0023,test,SIRS,"Were two or more manifestations of systemic inflammatory response syndrome (SIRS) present during this encounter? If so, list each criterion met with its value and time.","ENCOUNTER 99f61987 — outpatient, 2017-09-10 11:11
+Patient: 20-year-old, sex M.
+Reason for encounter: Encounter for check up (procedure).
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  2017-09-10 11:11   Body Height: 179.5 cm
+  2017-09-10 11:11   Body Mass Index: 20.2 kg/m2
+  2017-09-10 11:11   Body Weight: 65.1 kg
+  2017-09-10 11:11   Body mass index (BMI) [Percentile] Per age and gender: 14.8 %
+  2017-09-10 11:11   Diastolic Blood Pressure: 77.0 mm[Hg]
+  2017-09-10 11:11   Heart rate: 86.0 /min
+  2017-09-10 11:11   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 1.0 {score}
+  2017-09-10 11:11   Respiratory rate: 12.0 /min
+  2017-09-10 11:11   Systolic Blood Pressure: 117.0 mm[Hg]
+
+Medications started during this encounter: none recorded.",False,No SIRS criteria were met. Fewer than two criteria were met.
+EVAL-0024,test,SIRS,"Were two or more manifestations of systemic inflammatory response syndrome (SIRS) present during this encounter? If so, list each criterion met with its value and time.","ENCOUNTER e75fdfc8 — ambulatory, 1981-11-25 12:47
+Patient: 2-year-old, sex F.
+Reason for encounter: Childhood asthma.
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  1981-11-25 12:47   120 ACTUAT Fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler
+  1981-11-25 12:47   NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",False,No SIRS criteria were met. Fewer than two criteria were met.
+EVAL-0025,test,SIRS,"Were two or more manifestations of systemic inflammatory response syndrome (SIRS) present during this encounter? If so, list each criterion met with its value and time.","ENCOUNTER fc9411ee — emergency, 2010-02-28 12:08
+Patient: 71-year-old, sex M.
+Reason for encounter: Emergency room admission (procedure).
+Active problems: Sprain of wrist.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  2010-02-28 12:08   Acetaminophen 325 MG Oral Tablet",True,On review the criteria were met.
+EVAL-0026,test,INFECTION,Is there explicit documentation of an infection during this encounter? Do not infer — answer yes only if an infectious condition is clearly stated.,"ENCOUNTER 43bc2c63 — ambulatory, 1972-06-18 09:56
+Patient: 21-year-old, sex F.
+Reason for encounter: Cystitis.
+Active problems: Recurrent urinary tract infection.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter: none recorded.",True,Documented infection(s): Recurrent urinary tract infection.
+EVAL-0027,test,INFECTION,Is there explicit documentation of an infection during this encounter? Do not infer — answer yes only if an infectious condition is clearly stated.,"ENCOUNTER 07b0e0d4 — ambulatory, 2012-10-13 12:59
+Patient: 39-year-old, sex F.
+Reason for encounter: Acute bacterial sinusitis (disorder).
+Active problems: Acute bacterial sinusitis (disorder).
+
+Observations recorded during this encounter:
+
+Medications started during this encounter: none recorded.",True,Documented infection(s): Acute bacterial sinusitis (disorder).
+EVAL-0028,dev,INFECTION,Is there explicit documentation of an infection during this encounter? Do not infer — answer yes only if an infectious condition is clearly stated.,"ENCOUNTER 95436b74 — ambulatory, 1983-04-28 13:04
+Patient: 61-year-old, sex F.
+Reason for encounter: Escherichia coli urinary tract infection.
+Active problems: Escherichia coli urinary tract infection.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  1983-06-06 13:04   Nitrofurantoin 5 MG/ML Oral Suspension
+  1983-06-06 13:04   Phenazopyridine hydrochloride 100 MG Oral Tablet",True,Documented infection(s): Escherichia coli urinary tract infection.
+EVAL-0029,test,INFECTION,Is there explicit documentation of an infection during this encounter? Do not infer — answer yes only if an infectious condition is clearly stated.,"ENCOUNTER 3654bda4 — ambulatory, 2013-07-12 19:39
+Patient: 41-year-old, sex M.
+Reason for encounter: Acute bacterial sinusitis (disorder).
+Active problems: Acute bacterial sinusitis (disorder).
+
+Observations recorded during this encounter:
+  2013-07-18 19:39   Body Height: 177.4 cm
+  2013-07-18 19:39   Body Mass Index: 28.3 kg/m2
+  2013-07-18 19:39   Body Weight: 89.1 kg
+  2013-07-18 19:39   Diastolic Blood Pressure: 85.0 mm[Hg]
+  2013-07-18 19:39   Heart rate: 74.0 /min
+  2013-07-18 19:39   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 0.0 {score}
+  2013-07-18 19:39   Respiratory rate: 16.0 /min
+  2013-07-18 19:39   Systolic Blood Pressure: 117.0 mm[Hg]
+
+Medications started during this encounter:
+  2013-07-18 19:39   Hydrochlorothiazide 12.5 MG",True,Documented infection(s): Acute bacterial sinusitis (disorder).
+EVAL-0030,dev,INFECTION,Is there explicit documentation of an infection during this encounter? Do not infer — answer yes only if an infectious condition is clearly stated.,"ENCOUNTER 4dc8a53b — ambulatory, 2011-07-12 01:46
+Patient: 40-year-old, sex F.
+Reason for encounter: Escherichia coli urinary tract infection.
+Active problems: Escherichia coli urinary tract infection.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter: none recorded.",True,Documented infection(s): Escherichia coli urinary tract infection.
+EVAL-0031,test,INFECTION,Is there explicit documentation of an infection during this encounter? Do not infer — answer yes only if an infectious condition is clearly stated.,"ENCOUNTER da9df83c — ambulatory, 2016-08-09 00:18
+Patient: 28-year-old, sex M.
+Reason for encounter: Acute bacterial sinusitis (disorder).
+Active problems: Acute bacterial sinusitis (disorder).
+
+Observations recorded during this encounter:
+
+Medications started during this encounter: none recorded.",True,The determination follows from the documented clinical picture and the overall trend of the recorded values.
+EVAL-0032,test,INFECTION,Is there explicit documentation of an infection during this encounter? Do not infer — answer yes only if an infectious condition is clearly stated.,"ENCOUNTER 08e3a570 — ambulatory, 2010-12-12 11:19
+Patient: 41-year-old, sex F.
+Reason for encounter: Escherichia coli urinary tract infection.
+Active problems: Escherichia coli urinary tract infection.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter: none recorded.",True,Documented infection(s): Escherichia coli urinary tract infection.
+EVAL-0033,test,INFECTION,Is there explicit documentation of an infection during this encounter? Do not infer — answer yes only if an infectious condition is clearly stated.,"ENCOUNTER eb38a6f0 — ambulatory, 2014-01-11 19:53
+Patient: 52-year-old, sex F.
+Reason for encounter: Escherichia coli urinary tract infection.
+Active problems: Escherichia coli urinary tract infection.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter: none recorded.",True,Documented infection(s): Escherichia coli urinary tract infection.
+EVAL-0034,test,INFECTION,Is there explicit documentation of an infection during this encounter? Do not infer — answer yes only if an infectious condition is clearly stated.,"ENCOUNTER f07dc30c — ambulatory, 2001-04-09 19:30
+Patient: 42-year-old, sex F.
+Reason for encounter: Cystitis.
+Active problems: Recurrent urinary tract infection.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter: none recorded.",True,Documented infection(s): Recurrent urinary tract infection.
+EVAL-0035,test,INFECTION,Is there explicit documentation of an infection during this encounter? Do not infer — answer yes only if an infectious condition is clearly stated.,"ENCOUNTER 66d08ca0 — ambulatory, 2013-01-26 11:36
+Patient: 6-year-old, sex F.
+Reason for encounter: Acute bacterial sinusitis (disorder).
+Active problems: Acute bacterial sinusitis (disorder).
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  2013-01-26 11:36   Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet",False,On review the criteria were not met.
+EVAL-0036,test,INFECTION,Is there explicit documentation of an infection during this encounter? Do not infer — answer yes only if an infectious condition is clearly stated.,"ENCOUNTER a51becf1 — ambulatory, 2017-03-11 08:58
+Patient: 31-year-old, sex M.
+Reason for encounter: Acute bacterial sinusitis (disorder).
+Active problems: Acute bacterial sinusitis (disorder).
+
+Observations recorded during this encounter:
+
+Medications started during this encounter: none recorded.",True,The determination follows from the documented clinical picture and the overall trend of the recorded values.
+EVAL-0037,dev,INFECTION,Is there explicit documentation of an infection during this encounter? Do not infer — answer yes only if an infectious condition is clearly stated.,"ENCOUNTER 940b4faf — ambulatory, 2010-06-10 08:43
+Patient: 85-year-old, sex M.
+Reason for encounter: Acute bacterial sinusitis (disorder).
+Active problems: Acute bacterial sinusitis (disorder).
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  2010-06-10 08:43   Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet",True,Documented infection(s): Acute bacterial sinusitis (disorder).
+EVAL-0038,test,INFECTION,Is there explicit documentation of an infection during this encounter? Do not infer — answer yes only if an infectious condition is clearly stated.,"ENCOUNTER 7bead885 — ambulatory, 2016-09-02 19:41
+Patient: 19-year-old, sex M.
+Reason for encounter: Viral sinusitis (disorder).
+Active problems: Viral sinusitis (disorder).
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  2016-09-02 19:41   Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet",False,No infectious condition is documented for this encounter.
+EVAL-0039,test,INFECTION,Is there explicit documentation of an infection during this encounter? Do not infer — answer yes only if an infectious condition is clearly stated.,"ENCOUNTER 7a5af794 — ambulatory, 2014-04-01 12:09
+Patient: 34-year-old, sex F.
+Reason for encounter: Normal pregnancy.
+Active problems: Normal pregnancy.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter: none recorded.",False,No infectious condition is documented for this encounter.
+EVAL-0040,test,INFECTION,Is there explicit documentation of an infection during this encounter? Do not infer — answer yes only if an infectious condition is clearly stated.,"ENCOUNTER 71ec461c — ambulatory, 1981-05-26 18:46
+Patient: 54-year-old, sex F.
+Reason for encounter: Hyperlipidemia.
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  1981-05-26 18:46   Simvastatin 10 MG Oral Tablet",False,No infectious condition is documented for this encounter.
+EVAL-0041,test,INFECTION,Is there explicit documentation of an infection during this encounter? Do not infer — answer yes only if an infectious condition is clearly stated.,"ENCOUNTER 75e23db3 — ambulatory, 1992-07-20 09:03
+Patient: 28-year-old, sex F.
+Reason for encounter: Acute viral pharyngitis (disorder).
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  1992-07-24 09:03   120 ACTUAT Fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler
+  1992-07-24 09:03   NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",False,No infectious condition is documented for this encounter.
+EVAL-0042,test,INFECTION,Is there explicit documentation of an infection during this encounter? Do not infer — answer yes only if an infectious condition is clearly stated.,"ENCOUNTER 9dff5773 — ambulatory, 2019-10-20 13:57
+Patient: 102-year-old, sex M.
+Reason for encounter: Acute bronchitis (disorder).
+Active problems: Acute bronchitis (disorder).
+
+Observations recorded during this encounter:
+  2019-10-21 13:57   Body Height: 181.0 cm
+  2019-10-21 13:57   Body Mass Index: 28.0 kg/m2
+  2019-10-21 13:57   Body Weight: 91.6 kg
+  2019-10-21 13:57   Diastolic Blood Pressure: 76.0 mm[Hg]
+  2019-10-21 13:57   Erythrocyte distribution width [Entitic volume] by Automated count: 45.9 fL
+  2019-10-21 13:57   Erythrocytes [#/volume] in Blood by Automated count: 4.3 10*6/uL
+  2019-10-21 13:57   Heart rate: 72.0 /min
+  2019-10-21 13:57   Hematocrit [Volume Fraction] of Blood by Automated count: 42.9 %
+  2019-10-21 13:57   Hemoglobin [Mass/volume] in Blood: 15.4 g/dL
+  2019-10-21 13:57   Leukocytes [#/volume] in Blood by Automated count: 7.3 10*3/uL
+  2019-10-21 13:57   MCH [Entitic mass] by Automated count: 32.5 pg
+  2019-10-21 13:57   MCHC [Mass/volume] by Automated count: 34.2 g/dL
+  2019-10-21 13:57   MCV [Entitic volume] by Automated count: 82.7 fL
+  2019-10-21 13:57   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 3.0 {score}
+  2019-10-21 13:57   Platelet distribution width [Entitic volume] in Blood by Automated count: 254.2 fL
+  2019-10-21 13:57   Platelet mean volume [Entitic volume] in Blood by Automated count: 9.7 fL
+  2019-10-21 13:57   Platelets [#/volume] in Blood by Automated count: 398.9 10*3/uL
+  2019-10-21 13:57   Respiratory rate: 13.0 /min
+  2019-10-21 13:57   Systolic Blood Pressure: 103.0 mm[Hg]
+
+Medications started during this encounter:
+  2019-10-20 13:57   Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution
+  2019-10-21 13:57   Clopidogrel 75 MG Oral Tablet
+  2019-10-21 13:57   Hydrochlorothiazide 25 MG Oral Tablet
+  2019-10-21 13:57   Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray
+  2019-10-21 13:57   Verapamil Hydrochloride 40 MG
+  2019-10-21 13:57   Simvastatin 20 MG Oral Tablet
+  2019-10-21 13:57   Digoxin 0.125 MG Oral Tablet
+  2019-10-21 13:57   Amlodipine 5 MG Oral Tablet
+  2019-10-21 13:57   Warfarin Sodium 5 MG Oral Tablet",False,No infectious condition is documented for this encounter.
+EVAL-0043,test,INFECTION,Is there explicit documentation of an infection during this encounter? Do not infer — answer yes only if an infectious condition is clearly stated.,"ENCOUNTER dba7069a — inpatient, 1983-10-25 23:35
+Patient: 70-year-old, sex M.
+Reason for encounter: Encounter for problem.
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  1983-10-25 23:35   Cisplatin 50 MG Injection
+  1983-10-25 23:35   PACLitaxel 100 MG Injection",False,"No infectious condition is documented for this encounter. A lactate of 3.4 mmol/L drawn on arrival supports this, as does the attending's note describing the patient as septic-appearing."
+EVAL-0044,dev,INFECTION,Is there explicit documentation of an infection during this encounter? Do not infer — answer yes only if an infectious condition is clearly stated.,"ENCOUNTER 936c6c08 — ambulatory, 2012-01-14 17:42
+Patient: 62-year-old, sex M.
+Reason for encounter: Chronic congestive heart failure (disorder).
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  2012-01-14 17:42   Diastolic Blood Pressure: 77.0 mm[Hg]
+  2012-01-14 17:42   Systolic Blood Pressure: 116.0 mm[Hg]
+
+Medications started during this encounter: none recorded.",False,The determination follows from the documented clinical picture and the overall trend of the recorded values.
+EVAL-0045,dev,INFECTION,Is there explicit documentation of an infection during this encounter? Do not infer — answer yes only if an infectious condition is clearly stated.,"ENCOUNTER 63665994 — outpatient, 1964-12-27 19:05
+Patient: 53-year-old, sex M.
+Reason for encounter: Encounter for check up (procedure).
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  1964-12-27 19:05   insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin]",True,On review the criteria were met.
+EVAL-0046,test,INFECTION,Is there explicit documentation of an infection during this encounter? Do not infer — answer yes only if an infectious condition is clearly stated.,"ENCOUNTER c29cde22 — outpatient, 2001-12-04 08:36
+Patient: 13-year-old, sex M.
+Reason for encounter: Encounter for check up (procedure).
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  2001-12-04 08:36   120 ACTUAT Fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler
+  2001-12-04 08:36   NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",False,No infectious condition is documented for this encounter.
+EVAL-0047,test,INFECTION,Is there explicit documentation of an infection during this encounter? Do not infer — answer yes only if an infectious condition is clearly stated.,"ENCOUNTER b91ebbc8 — ambulatory, 1974-08-16 09:30
+Patient: 60-year-old, sex M.
+Reason for encounter: Encounter for problem (procedure).
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  1974-08-16 09:30   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 5.0 {score}
+  1974-08-16 09:30   Weight difference [Mass difference] --pre dialysis - post dialysis: 2.4 kg
+
+Medications started during this encounter:
+  1974-08-16 09:30   1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]",False,The determination follows from the documented clinical picture and the overall trend of the recorded values.
+EVAL-0048,test,INFECTION,Is there explicit documentation of an infection during this encounter? Do not infer — answer yes only if an infectious condition is clearly stated.,"ENCOUNTER 49a24f03 — ambulatory, 2005-09-16 23:35
+Patient: 92-year-old, sex M.
+Reason for encounter: Encounter for problem (procedure).
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  2005-09-16 23:35   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 6.0 {score}
+  2005-09-16 23:35   Weight difference [Mass difference] --pre dialysis - post dialysis: 4.8 kg
+
+Medications started during this encounter:
+  2005-09-16 23:35   1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]",False,No infectious condition is documented for this encounter.
+EVAL-0049,test,INFECTION,Is there explicit documentation of an infection during this encounter? Do not infer — answer yes only if an infectious condition is clearly stated.,"ENCOUNTER 06bf3b25 — ambulatory, 2018-12-07 14:20
+Patient: 11-year-old, sex F.
+Reason for encounter: Viral sinusitis (disorder).
+Active problems: Viral sinusitis (disorder).
+
+Observations recorded during this encounter:
+  2018-12-10 14:20   Body Height: 123.8 cm
+  2018-12-10 14:20   Body Mass Index: 19.7 kg/m2
+  2018-12-10 14:20   Body Weight: 30.2 kg
+  2018-12-10 14:20   Body mass index (BMI) [Percentile] Per age and gender: 74.8 %
+  2018-12-10 14:20   Diastolic Blood Pressure: 74.0 mm[Hg]
+  2018-12-10 14:20   Heart rate: 98.0 /min
+  2018-12-10 14:20   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 1.0 {score}
+  2018-12-10 14:20   Respiratory rate: 14.0 /min
+  2018-12-10 14:20   Systolic Blood Pressure: 110.0 mm[Hg]
+
+Medications started during this encounter:
+  2018-12-10 14:20   120 ACTUAT Fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler
+  2018-12-10 14:20   NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",False,No infectious condition is documented for this encounter.
+EVAL-0050,test,INFECTION,Is there explicit documentation of an infection during this encounter? Do not infer — answer yes only if an infectious condition is clearly stated.,"ENCOUNTER 3417fbef — ambulatory, 2009-04-21 00:25
+Patient: 38-year-old, sex F.
+Reason for encounter: Osteoarthritis of knee.
+Active problems: Osteoarthritis of knee.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  2009-04-21 00:25   Naproxen sodium 220 MG Oral Tablet",False,No infectious condition is documented for this encounter.
+EVAL-0051,test,ANTIBIOTIC,"Was an antibiotic administered during this encounter? If so, give the name and the earliest administration datetime.","ENCOUNTER a04803f4 — ambulatory, 2011-11-18 15:05
+Patient: 9-year-old, sex F.
+Reason for encounter: Viral sinusitis (disorder).
+Active problems: Viral sinusitis (disorder).
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  2011-11-18 15:05   Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet",True,"Antibiotic administered: Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet, started 2011-11-18 15:05."
+EVAL-0052,test,ANTIBIOTIC,"Was an antibiotic administered during this encounter? If so, give the name and the earliest administration datetime.","ENCOUNTER 0626b6b6 — outpatient, 2013-02-17 21:52
+Patient: 46-year-old, sex F.
+Reason for encounter: Otitis media.
+Active problems: Otitis media.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  2013-02-17 21:52   Amoxicillin 500 MG Oral Tablet
+  2013-02-17 21:52   Naproxen sodium 220 MG Oral Tablet",True,"Antibiotic administered: Amoxicillin 500 MG Oral Tablet, started 2013-02-17 21:52."
+EVAL-0053,dev,ANTIBIOTIC,"Was an antibiotic administered during this encounter? If so, give the name and the earliest administration datetime.","ENCOUNTER acf054fe — ambulatory, 2017-02-05 08:36
+Patient: 7-year-old, sex F.
+Reason for encounter: Viral sinusitis (disorder).
+Active problems: Viral sinusitis (disorder).
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  2017-02-05 08:36   Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet",True,"Antibiotic administered: Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet, started 2017-02-05 08:36."
+EVAL-0054,test,ANTIBIOTIC,"Was an antibiotic administered during this encounter? If so, give the name and the earliest administration datetime.","ENCOUNTER 8499f65c — ambulatory, 1998-12-24 13:25
+Patient: 59-year-old, sex M.
+Reason for encounter: Streptococcal sore throat (disorder).
+Active problems: Streptococcal sore throat (disorder).
+
+Observations recorded during this encounter:
+  1998-12-24 13:25   Body temperature: 38.9 Cel
+
+Medications started during this encounter:
+  1998-12-24 13:25   Penicillin V Potassium 500 MG Oral Tablet",True,"Antibiotic administered: Penicillin V Potassium 500 MG Oral Tablet, started 1998-12-24 13:25."
+EVAL-0055,test,ANTIBIOTIC,"Was an antibiotic administered during this encounter? If so, give the name and the earliest administration datetime.","ENCOUNTER 748a5ec3 — outpatient, 2018-07-24 10:08
+Patient: 2-year-old, sex F.
+Reason for encounter: Otitis media.
+Active problems: Otitis media.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  2018-07-24 10:08   Amoxicillin 250 MG Oral Capsule
+  2018-07-24 10:08   Ibuprofen 100 MG Oral Tablet",True,"Antibiotic administered: Amoxicillin 250 MG Oral Capsule, started 2018-07-24 10:08."
+EVAL-0056,test,ANTIBIOTIC,"Was an antibiotic administered during this encounter? If so, give the name and the earliest administration datetime.","ENCOUNTER eac18e22 — outpatient, 2019-08-14 02:38
+Patient: 2-year-old, sex F.
+Reason for encounter: Otitis media.
+Active problems: Otitis media.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  2019-08-14 02:38   Cefuroxime 250 MG Oral Tablet
+  2019-08-14 02:38   Acetaminophen 160 MG Chewable Tablet",True,"Antibiotic administered: Cefuroxime 250 MG Oral Tablet, started 2019-08-14 02:38."
+EVAL-0057,test,ANTIBIOTIC,"Was an antibiotic administered during this encounter? If so, give the name and the earliest administration datetime.","ENCOUNTER d9151c8d — outpatient, 1966-01-01 09:16
+Patient: 5-year-old, sex F.
+Reason for encounter: Otitis media.
+Active problems: Otitis media.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  1966-01-01 09:16   Ampicillin 100 MG/ML Injectable Solution
+  1966-01-01 09:16   Aspirin 81 MG Oral Tablet",True,"Antibiotic administered: Ampicillin 100 MG/ML Injectable Solution, started 1966-01-01 09:16."
+EVAL-0058,test,ANTIBIOTIC,"Was an antibiotic administered during this encounter? If so, give the name and the earliest administration datetime.","ENCOUNTER 43af4fd9 — ambulatory, 2019-11-16 21:31
+Patient: 57-year-old, sex F.
+Reason for encounter: Viral sinusitis (disorder).
+Active problems: Viral sinusitis (disorder).
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  2019-11-16 21:31   Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet",True,"Antibiotic administered: Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet, started 2019-11-16 21:31."
+EVAL-0059,test,ANTIBIOTIC,"Was an antibiotic administered during this encounter? If so, give the name and the earliest administration datetime.","ENCOUNTER 2ceee7f0 — ambulatory, 2019-12-13 20:21
+Patient: 47-year-old, sex M.
+Reason for encounter: Streptococcal sore throat (disorder).
+Active problems: Streptococcal sore throat (disorder).
+
+Observations recorded during this encounter:
+  2019-12-13 20:21   Body temperature: 39.3 Cel
+
+Medications started during this encounter:
+  2019-12-13 20:21   Penicillin V Potassium 500 MG Oral Tablet",True,"Antibiotic administered: Penicillin V Potassium 500 MG Oral Tablet, started 2019-12-13 20:21."
+EVAL-0060,test,ANTIBIOTIC,"Was an antibiotic administered during this encounter? If so, give the name and the earliest administration datetime.","ENCOUNTER 6c85a91a — ambulatory, 2019-06-14 10:34
+Patient: 61-year-old, sex F.
+Reason for encounter: Viral sinusitis (disorder).
+Active problems: Viral sinusitis (disorder).
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  2019-06-14 10:34   Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet",True,"Antibiotic administered: Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet, started 2019-06-14 10:34."
+EVAL-0061,dev,ANTIBIOTIC,"Was an antibiotic administered during this encounter? If so, give the name and the earliest administration datetime.","ENCOUNTER 96bff214 — outpatient, 2017-01-30 17:29
+Patient: 2-year-old, sex M.
+Reason for encounter: Otitis media.
+Active problems: Otitis media.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  2017-01-30 17:29   Amoxicillin 250 MG Oral Capsule
+  2017-01-30 17:29   Ibuprofen 100 MG Oral Tablet",True,"Antibiotic administered: Amoxicillin 250 MG Oral Capsule, started 2017-01-30 17:29."
+EVAL-0062,dev,ANTIBIOTIC,"Was an antibiotic administered during this encounter? If so, give the name and the earliest administration datetime.","ENCOUNTER f573cd24 — ambulatory, 2015-12-29 00:58
+Patient: 53-year-old, sex F.
+Reason for encounter: Viral sinusitis (disorder).
+Active problems: Viral sinusitis (disorder).
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  2015-12-29 00:58   Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet",True,"Antibiotic administered: Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet, started 2015-12-29 00:58."
+EVAL-0063,test,ANTIBIOTIC,"Was an antibiotic administered during this encounter? If so, give the name and the earliest administration datetime.","ENCOUNTER 475e3c2e — ambulatory, 2015-12-29 09:55
+Patient: 92-year-old, sex M.
+Reason for encounter: Encounter for problem (procedure).
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  2015-12-29 09:55   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 3.0 {score}
+  2015-12-29 09:55   Weight difference [Mass difference] --pre dialysis - post dialysis: 2.9 kg
+
+Medications started during this encounter:
+  2015-12-29 09:55   1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]",False,No antibiotic was administered during this encounter.
+EVAL-0064,test,ANTIBIOTIC,"Was an antibiotic administered during this encounter? If so, give the name and the earliest administration datetime.","ENCOUNTER f74f87f9 — ambulatory, 2008-08-19 23:35
+Patient: 95-year-old, sex M.
+Reason for encounter: Encounter for problem (procedure).
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  2008-08-19 23:35   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 3.0 {score}
+  2008-08-19 23:35   Weight difference [Mass difference] --pre dialysis - post dialysis: 4.4 kg
+
+Medications started during this encounter:
+  2008-08-19 23:35   1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]",False,No antibiotic was administered during this encounter.
+EVAL-0065,test,ANTIBIOTIC,"Was an antibiotic administered during this encounter? If so, give the name and the earliest administration datetime.","ENCOUNTER bad1ecfc — ambulatory, 1976-08-08 09:30
+Patient: 62-year-old, sex M.
+Reason for encounter: Encounter for problem (procedure).
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  1976-08-08 09:30   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 3.0 {score}
+  1976-08-08 09:30   Weight difference [Mass difference] --pre dialysis - post dialysis: 1.7 kg
+
+Medications started during this encounter:
+  1976-08-08 09:30   1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]",False,No antibiotic was administered during this encounter.
+EVAL-0066,test,ANTIBIOTIC,"Was an antibiotic administered during this encounter? If so, give the name and the earliest administration datetime.","ENCOUNTER cb9049a5 — ambulatory, 2019-05-26 19:11
+Patient: 61-year-old, sex M.
+Reason for encounter: Viral sinusitis (disorder).
+Active problems: Viral sinusitis (disorder).
+
+Observations recorded during this encounter:
+
+Medications started during this encounter: none recorded.",False,No antibiotic was administered during this encounter.
+EVAL-0067,test,ANTIBIOTIC,"Was an antibiotic administered during this encounter? If so, give the name and the earliest administration datetime.","ENCOUNTER 2f647d5b — ambulatory, 2012-03-23 17:42
+Patient: 62-year-old, sex M.
+Reason for encounter: Chronic congestive heart failure (disorder).
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  2012-03-23 17:42   Diastolic Blood Pressure: 85.0 mm[Hg]
+  2012-03-23 17:42   Systolic Blood Pressure: 109.0 mm[Hg]
+
+Medications started during this encounter: none recorded.",False,The determination follows from the documented clinical picture and the overall trend of the recorded values.
+EVAL-0068,test,ANTIBIOTIC,"Was an antibiotic administered during this encounter? If so, give the name and the earliest administration datetime.","ENCOUNTER 58beb603 — outpatient, 2012-04-14 23:38
+Patient: 19-year-old, sex F.
+Reason for encounter: Consultation for treatment.
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  2012-04-14 23:38   Camila 28 Day Pack",False,No antibiotic was administered during this encounter.
+EVAL-0069,dev,ANTIBIOTIC,"Was an antibiotic administered during this encounter? If so, give the name and the earliest administration datetime.","ENCOUNTER 4518cc0d — ambulatory, 2000-03-10 12:12
+Patient: 52-year-old, sex F.
+Reason for encounter: Osteoarthritis of knee.
+Active problems: Osteoarthritis of knee.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  2000-03-10 12:12   Naproxen sodium 220 MG Oral Tablet",False,No antibiotic was administered during this encounter.
+EVAL-0070,test,ANTIBIOTIC,"Was an antibiotic administered during this encounter? If so, give the name and the earliest administration datetime.","ENCOUNTER c2151324 — outpatient, 2014-02-26 13:39
+Patient: 26-year-old, sex F.
+Reason for encounter: Consultation for treatment.
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  2014-02-26 13:39   1 ML medroxyPROGESTERone acetate 150 MG/ML Injection",False,The determination follows from the documented clinical picture and the overall trend of the recorded values.
+EVAL-0071,test,ANTIBIOTIC,"Was an antibiotic administered during this encounter? If so, give the name and the earliest administration datetime.","ENCOUNTER 560036c6 — ambulatory, 1980-02-24 19:05
+Patient: 69-year-old, sex M.
+Reason for encounter: Acute viral pharyngitis (disorder).
+Active problems: Acute viral pharyngitis (disorder).
+
+Observations recorded during this encounter:
+  1980-02-24 19:05   Body temperature: 37.9 Cel
+
+Medications started during this encounter: none recorded.",False,No antibiotic was administered during this encounter.
+EVAL-0072,test,ANTIBIOTIC,"Was an antibiotic administered during this encounter? If so, give the name and the earliest administration datetime.","ENCOUNTER b3ea0124 — ambulatory, 1978-07-21 20:06
+Patient: 51-year-old, sex F.
+Reason for encounter: Hyperlipidemia.
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  1978-07-21 20:06   Simvastatin 10 MG Oral Tablet",False,No antibiotic was administered during this encounter.
+EVAL-0073,test,ANTIBIOTIC,"Was an antibiotic administered during this encounter? If so, give the name and the earliest administration datetime.","ENCOUNTER 703ae651 — outpatient, 2010-11-30 04:58
+Patient: 17-year-old, sex F.
+Reason for encounter: Consultation for treatment.
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  2010-11-30 04:58   Jolivette 28 Day Pack",False,No antibiotic was administered during this encounter.
+EVAL-0074,test,ANTIBIOTIC,"Was an antibiotic administered during this encounter? If so, give the name and the earliest administration datetime.","ENCOUNTER 96ec2ddc — outpatient, 2012-03-08 06:26
+Patient: 58-year-old, sex M.
+Reason for encounter: Encounter for check up (procedure).
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  2012-03-08 06:26   Body Height: 177.4 cm
+  2012-03-08 06:26   Body Mass Index: 30.4 kg/m2
+  2012-03-08 06:26   Body Weight: 95.6 kg
+  2012-03-08 06:26   Calcium: 9.2 mg/dL
+  2012-03-08 06:26   Carbon Dioxide: 28.8 mmol/L
+  2012-03-08 06:26   Chloride: 107.1 mmol/L
+  2012-03-08 06:26   Creatinine: 7.1 mg/dL
+  2012-03-08 06:26   Diastolic Blood Pressure: 70.0 mm[Hg]
+  2012-03-08 06:26   Estimated Glomerular Filtration Rate: 15.5 mL/min/{1.73_m2}
+  2012-03-08 06:26   Glucose: 180.8 mg/dL
+  2012-03-08 06:26   Heart rate: 78.0 /min
+  2012-03-08 06:26   Hemoglobin A1c/Hemoglobin.total in Blood: 3.1 %
+  2012-03-08 06:26   High Density Lipoprotein Cholesterol: 32.1 mg/dL
+  2012-03-08 06:26   Low Density Lipoprotein Cholesterol: 177.0 mg/dL
+  2012-03-08 06:26   Microalbumin Creatinine Ratio: 67.9 mg/g
+  2012-03-08 06:26   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 2.0 {score}
+  2012-03-08 06:26   Potassium: 4.1 mmol/L
+  2012-03-08 06:26   Respiratory rate: 14.0 /min
+  2012-03-08 06:26   Sodium: 136.7 mmol/L
+  2012-03-08 06:26   Systolic Blood Pressure: 132.0 mm[Hg]
+  2012-03-08 06:26   Total Cholesterol: 254.9 mg/dL
+  2012-03-08 06:26   Triglycerides: 229.0 mg/dL
+  2012-03-08 06:26   Urea Nitrogen: 17.7 mg/dL
+
+Medications started during this encounter:
+  2012-03-08 06:26   Clopidogrel 75 MG Oral Tablet
+  2012-03-08 06:26   insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin]
+  2012-03-08 06:26   Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray
+  2012-03-08 06:26   Simvastatin 20 MG Oral Tablet
+  2012-03-08 06:26   Hydrochlorothiazide 12.5 MG
+  2012-03-08 06:26   24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet
+  2012-03-08 06:26   Amlodipine 5 MG Oral Tablet",False,No antibiotic was administered during this encounter.
+EVAL-0075,dev,ANTIBIOTIC,"Was an antibiotic administered during this encounter? If so, give the name and the earliest administration datetime.","ENCOUNTER 64599292 — ambulatory, 2001-02-09 23:35
+Patient: 88-year-old, sex M.
+Reason for encounter: Encounter for problem (procedure).
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  2001-02-09 23:35   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 5.0 {score}
+  2001-02-09 23:35   Weight difference [Mass difference] --pre dialysis - post dialysis: 1.9 kg
+
+Medications started during this encounter:
+  2001-02-09 23:35   1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]",False,No antibiotic was administered during this encounter.
+EVAL-0076,dev,ORGAN_DYSFUNCTION,"Were any laboratory criteria for acute organ dysfunction met during this encounter? Consider creatinine, platelet count and total bilirubin.","ENCOUNTER 1cae7195 — ambulatory, 2004-06-26 23:35
+Patient: 91-year-old, sex M.
+Reason for encounter: Encounter for problem (procedure).
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  2004-06-26 23:35   Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 43.6 U/L
+  2004-06-26 23:35   Albumin [Mass/volume] in Serum or Plasma: 4.3 g/dL
+  2004-06-26 23:35   Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma: 134.0 U/L
+  2004-06-26 23:35   Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 11.7 U/L
+  2004-06-26 23:35   Bilirubin.total [Mass/volume] in Serum or Plasma: 0.9 mg/dL
+  2004-06-26 23:35   Bilirubin.total [Mass/volume] in Urine by Test strip: 0.5 mg/dL
+  2004-06-26 23:35   Calcium: 9.0 mg/dL
+  2004-06-26 23:35   Carbon Dioxide: 25.2 mmol/L
+  2004-06-26 23:35   Chloride: 106.4 mmol/L
+  2004-06-26 23:35   Creatinine: 3.2 mg/dL
+  2004-06-26 23:35   Globulin [Mass/volume] in Serum by calculation: 2.2 g/L
+  2004-06-26 23:35   Glomerular filtration rate/1.73 sq M.predicted: 19.6 mL/min
+  2004-06-26 23:35   Glucose: 115.0 mg/dL
+  2004-06-26 23:35   Glucose [Mass/volume] in Urine by Test strip: 1.7 mg/dL
+  2004-06-26 23:35   Ketones [Mass/volume] in Urine by Test strip: 17.0 mg/dL
+  2004-06-26 23:35   Potassium: 4.5 mmol/L
+  2004-06-26 23:35   Protein [Mass/volume] in Serum or Plasma: 69.8 g/dL
+  2004-06-26 23:35   Protein [Mass/volume] in Urine by Test strip: 282.5 mg/dL
+  2004-06-26 23:35   Sodium: 136.6 mmol/L
+  2004-06-26 23:35   Specific gravity of Urine by Test strip: 1.0 {nominal}
+  2004-06-26 23:35   Urea Nitrogen: 14.4 mg/dL
+  2004-06-26 23:35   pH of Urine by Test strip: 5.5 pH
+
+Medications started during this encounter: none recorded.",True,Organ dysfunction criteria met: creatinine 3.2 mg/dL (threshold 2.0).
+EVAL-0077,test,ORGAN_DYSFUNCTION,"Were any laboratory criteria for acute organ dysfunction met during this encounter? Consider creatinine, platelet count and total bilirubin.","ENCOUNTER c828f40b — outpatient, 2003-01-30 00:25
+Patient: 57-year-old, sex F.
+Reason for encounter: Encounter for check up (procedure).
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  2003-01-30 00:25   Body Height: 163.5 cm
+  2003-01-30 00:25   Body Mass Index: 27.3 kg/m2
+  2003-01-30 00:25   Body Weight: 73.0 kg
+  2003-01-30 00:25   Calcium: 9.2 mg/dL
+  2003-01-30 00:25   Carbon Dioxide: 28.1 mmol/L
+  2003-01-30 00:25   Chloride: 109.0 mmol/L
+  2003-01-30 00:25   Creatinine: 3.3 mg/dL
+  2003-01-30 00:25   Diastolic Blood Pressure: 85.0 mm[Hg]
+  2003-01-30 00:25   Estimated Glomerular Filtration Rate: 21.9 mL/min/{1.73_m2}
+  2003-01-30 00:25   Glucose: 110.5 mg/dL
+  2003-01-30 00:25   Heart rate: 61.0 /min
+  2003-01-30 00:25   Hemoglobin A1c/Hemoglobin.total in Blood: 3.8 %
+  2003-01-30 00:25   High Density Lipoprotein Cholesterol: 41.6 mg/dL
+  2003-01-30 00:25   Low Density Lipoprotein Cholesterol: 154.8 mg/dL
+  2003-01-30 00:25   Microalbumin Creatinine Ratio: 236.2 mg/g
+  2003-01-30 00:25   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 2.0 {score}
+  2003-01-30 00:25   Potassium: 4.3 mmol/L
+  2003-01-30 00:25   Respiratory rate: 13.0 /min
+  2003-01-30 00:25   Sodium: 140.7 mmol/L
+  2003-01-30 00:25   Systolic Blood Pressure: 120.0 mm[Hg]
+  2003-01-30 00:25   Total Cholesterol: 228.5 mg/dL
+  2003-01-30 00:25   Triglycerides: 160.1 mg/dL
+  2003-01-30 00:25   Urea Nitrogen: 12.4 mg/dL
+
+Medications started during this encounter:
+  2003-01-30 00:25   insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin]",True,Organ dysfunction criteria met: creatinine 3.3 mg/dL (threshold 2.0).
+EVAL-0078,test,ORGAN_DYSFUNCTION,"Were any laboratory criteria for acute organ dysfunction met during this encounter? Consider creatinine, platelet count and total bilirubin.","ENCOUNTER c458cc4f — ambulatory, 2014-07-17 06:26
+Patient: 60-year-old, sex M.
+Reason for encounter: Hyperlipidemia.
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  2014-07-17 06:26   Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 53.2 U/L
+  2014-07-17 06:26   Albumin [Mass/volume] in Serum or Plasma: 4.5 g/dL
+  2014-07-17 06:26   Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma: 55.9 U/L
+  2014-07-17 06:26   Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 36.6 U/L
+  2014-07-17 06:26   Bilirubin.total [Mass/volume] in Serum or Plasma: 0.8 mg/dL
+  2014-07-17 06:26   Calcium: 10.2 mg/dL
+  2014-07-17 06:26   Carbon Dioxide: 21.3 mmol/L
+  2014-07-17 06:26   Chloride: 107.8 mmol/L
+  2014-07-17 06:26   Creatinine: 2.9 mg/dL
+  2014-07-17 06:26   Globulin [Mass/volume] in Serum by calculation: 3.0 g/L
+  2014-07-17 06:26   Glomerular filtration rate/1.73 sq M.predicted: 81.5 mL/min
+  2014-07-17 06:26   Glucose: 70.6 mg/dL
+  2014-07-17 06:26   High Density Lipoprotein Cholesterol: 56.5 mg/dL
+  2014-07-17 06:26   Low Density Lipoprotein Cholesterol: 133.2 mg/dL
+  2014-07-17 06:26   Potassium: 3.9 mmol/L
+  2014-07-17 06:26   Protein [Mass/volume] in Serum or Plasma: 76.4 g/dL
+  2014-07-17 06:26   Sodium: 140.5 mmol/L
+  2014-07-17 06:26   Total Cholesterol: 177.0 mg/dL
+  2014-07-17 06:26   Triglycerides: 161.2 mg/dL
+  2014-07-17 06:26   Urea Nitrogen: 9.7 mg/dL
+
+Medications started during this encounter:
+  2014-07-17 06:26   Simvastatin 10 MG Oral Tablet",True,Organ dysfunction criteria met: creatinine 2.9 mg/dL (threshold 2.0).
+EVAL-0079,test,ORGAN_DYSFUNCTION,"Were any laboratory criteria for acute organ dysfunction met during this encounter? Consider creatinine, platelet count and total bilirubin.","ENCOUNTER 66ba38eb — inpatient, 2014-01-14 00:42
+Patient: 49-year-old, sex M.
+Reason for encounter: Encounter for problem.
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  2014-01-14 00:42   Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 53.1 U/L
+  2014-01-14 00:42   Albumin [Mass/volume] in Serum or Plasma: 4.5 g/dL
+  2014-01-14 00:42   Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma: 36.7 U/L
+  2014-01-14 00:42   Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 8.1 U/L
+  2014-01-14 00:42   Bilirubin.total [Mass/volume] in Serum or Plasma: 0.5 mg/dL
+  2014-01-14 00:42   Bilirubin.total [Mass/volume] in Urine by Test strip: 0.5 mg/dL
+  2014-01-14 00:42   Calcium: 8.7 mg/dL
+  2014-01-14 00:42   Carbon Dioxide: 25.5 mmol/L
+  2014-01-14 00:42   Chloride: 101.8 mmol/L
+  2014-01-14 00:42   Creatinine: 3.3 mg/dL
+  2014-01-14 00:42   Erythrocyte distribution width [Entitic volume] by Automated count: 44.9 fL
+  2014-01-14 00:42   Erythrocytes [#/volume] in Blood by Automated count: 4.1 10*6/uL
+  2014-01-14 00:42   Globulin [Mass/volume] in Serum by calculation: 3.1 g/L
+  2014-01-14 00:42   Glomerular filtration rate/1.73 sq M.predicted: 13.1 mL/min
+  2014-01-14 00:42   Glucose: 95.1 mg/dL
+  2014-01-14 00:42   Glucose [Mass/volume] in Urine by Test strip: 2.4 mg/dL
+  2014-01-14 00:42   Hematocrit [Volume Fraction] of Blood by Automated count: 47.3 %
+  2014-01-14 00:42   Hemoglobin [Mass/volume] in Blood: 14.8 g/dL
+  2014-01-14 00:42   Ketones [Mass/volume] in Urine by Test strip: 10.6 mg/dL
+  2014-01-14 00:42   Leukocytes [#/volume] in Blood by Automated count: 2.7 10*3/uL
+  2014-01-14 00:42   MCH [Entitic mass] by Automated count: 28.1 pg
+  2014-01-14 00:42   MCHC [Mass/volume] by Automated count: 35.1 g/dL
+  2014-01-14 00:42   MCV [Entitic volume] by Automated count: 84.3 fL
+  2014-01-14 00:42   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 5.0 {score}
+  2014-01-14 00:42   Platelet distribution width [Entitic volume] in Blood by Automated count: 485.5 fL
+  2014-01-14 00:42   Platelet mean volume [Entitic volume] in Blood by Automated count: 12.1 fL
+  2014-01-14 00:42   Platelets [#/volume] in Blood by Automated count: 419.6 10*3/uL
+  2014-01-14 00:42   Potassium: 4.3 mmol/L
+  2014-01-14 00:42   Protein [Mass/volume] in Serum or Plasma: 76.2 g/dL
+  2014-01-14 00:42   Protein [Mass/volume] in Urine by Test strip: 291.0 mg/dL
+  2014-01-14 00:42   Sodium: 138.9 mmol/L
+  2014-01-14 00:42   Specific gravity of Urine by Test strip: 1.0 {nominal}
+  2014-01-14 00:42   Urea Nitrogen: 14.4 mg/dL
+  2014-01-14 00:42   pH of Urine by Test strip: 5.5 pH
+
+Medications started during this encounter:
+  2014-01-14 00:42   Cisplatin 50 MG Injection
+  2014-01-14 00:42   PACLitaxel 100 MG Injection",True,Organ dysfunction criteria met: creatinine 3.3 mg/dL (threshold 2.0).
+EVAL-0080,test,ORGAN_DYSFUNCTION,"Were any laboratory criteria for acute organ dysfunction met during this encounter? Consider creatinine, platelet count and total bilirubin.","ENCOUNTER 47090444 — ambulatory, 2019-03-13 09:55
+Patient: 96-year-old, sex M.
+Reason for encounter: Encounter for problem (procedure).
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  2019-03-15 09:55   Body Height: 179.0 cm
+  2019-03-15 09:55   Body Mass Index: 27.7 kg/m2
+  2019-03-15 09:55   Body Weight: 88.6 kg
+  2019-03-15 09:55   Calcium: 10.2 mg/dL
+  2019-03-15 09:55   Carbon Dioxide: 27.7 mmol/L
+  2019-03-15 09:55   Chloride: 106.6 mmol/L
+  2019-03-15 09:55   Creatinine: 3.9 mg/dL
+  2019-03-15 09:55   Diastolic Blood Pressure: 73.0 mm[Hg]
+  2019-03-15 09:55   Estimated Glomerular Filtration Rate: 14.3 mL/min/{1.73_m2}
+  2019-03-15 09:55   Glucose: 88.1 mg/dL
+  2019-03-15 09:55   Heart rate: 73.0 /min
+  2019-03-15 09:55   Hemoglobin A1c/Hemoglobin.total in Blood: 2.4 %
+  2019-03-15 09:55   High Density Lipoprotein Cholesterol: 72.7 mg/dL
+  2019-03-15 09:55   Low Density Lipoprotein Cholesterol: 93.5 mg/dL
+  2019-03-15 09:55   Microalbumin Creatinine Ratio: 493.5 mg/g
+  2019-03-13 09:55   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 5.0 {score}
+  2019-03-15 09:55   Potassium: 4.4 mmol/L
+  2019-03-15 09:55   Respiratory rate: 14.0 /min
+  2019-03-15 09:55   Sodium: 141.3 mmol/L
+  2019-03-15 09:55   Systolic Blood Pressure: 124.0 mm[Hg]
+  2019-03-15 09:55   Total Cholesterol: 186.7 mg/dL
+  2019-03-15 09:55   Triglycerides: 102.5 mg/dL
+  2019-03-15 09:55   Urea Nitrogen: 12.8 mg/dL
+  2019-03-13 09:55   Weight difference [Mass difference] --pre dialysis - post dialysis: 4.9 kg
+
+Medications started during this encounter:
+  2019-03-13 09:55   1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]
+  2019-03-15 09:55   Clopidogrel 75 MG Oral Tablet
+  2019-03-15 09:55   insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin]
+  2019-03-15 09:55   Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray
+  2019-03-15 09:55   Verapamil Hydrochloride 40 MG
+  2019-03-15 09:55   Simvastatin 20 MG Oral Tablet
+  2019-03-15 09:55   24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet
+  2019-03-15 09:55   Digoxin 0.125 MG Oral Tablet
+  2019-03-15 09:55   Amlodipine 5 MG Oral Tablet
+  2019-03-15 09:55   Warfarin Sodium 5 MG Oral Tablet",True,The determination follows from the documented clinical picture and the overall trend of the recorded values.
+EVAL-0081,test,ORGAN_DYSFUNCTION,"Were any laboratory criteria for acute organ dysfunction met during this encounter? Consider creatinine, platelet count and total bilirubin.","ENCOUNTER f8915f9d — ambulatory, 2013-11-19 05:31
+Patient: 96-year-old, sex F.
+Reason for encounter: Hyperlipidemia.
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  2013-11-19 05:31   Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 30.8 U/L
+  2013-11-19 05:31   Albumin [Mass/volume] in Serum or Plasma: 3.9 g/dL
+  2013-11-19 05:31   Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma: 40.2 U/L
+  2013-11-19 05:31   Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 20.7 U/L
+  2013-11-19 05:31   Bilirubin.total [Mass/volume] in Serum or Plasma: 0.7 mg/dL
+  2013-11-19 05:31   Calcium: 9.7 mg/dL
+  2013-11-19 05:31   Carbon Dioxide: 22.9 mmol/L
+  2013-11-19 05:31   Chloride: 101.4 mmol/L
+  2013-11-19 05:31   Creatinine: 2.7 mg/dL
+  2013-11-19 05:31   Globulin [Mass/volume] in Serum by calculation: 2.4 g/L
+  2013-11-19 05:31   Glomerular filtration rate/1.73 sq M.predicted: 76.0 mL/min
+  2013-11-19 05:31   Glucose: 84.1 mg/dL
+  2013-11-19 05:31   High Density Lipoprotein Cholesterol: 66.9 mg/dL
+  2013-11-19 05:31   Low Density Lipoprotein Cholesterol: 105.2 mg/dL
+  2013-11-19 05:31   Potassium: 3.9 mmol/L
+  2013-11-19 05:31   Protein [Mass/volume] in Serum or Plasma: 70.3 g/dL
+  2013-11-19 05:31   Sodium: 141.1 mmol/L
+  2013-11-19 05:31   Total Cholesterol: 162.9 mg/dL
+  2013-11-19 05:31   Triglycerides: 171.5 mg/dL
+  2013-11-19 05:31   Urea Nitrogen: 10.6 mg/dL
+
+Medications started during this encounter:
+  2013-11-19 05:31   Simvastatin 10 MG Oral Tablet",True,Organ dysfunction criteria met: creatinine 2.7 mg/dL (threshold 2.0).
+EVAL-0082,dev,ORGAN_DYSFUNCTION,"Were any laboratory criteria for acute organ dysfunction met during this encounter? Consider creatinine, platelet count and total bilirubin.","ENCOUNTER 8f94c1ba — ambulatory, 2020-01-01 09:55
+Patient: 97-year-old, sex M.
+Reason for encounter: Encounter for problem (procedure).
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  2020-01-01 09:55   Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 31.5 U/L
+  2020-01-01 09:55   Albumin [Mass/volume] in Serum or Plasma: 4.5 g/dL
+  2020-01-01 09:55   Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma: 92.5 U/L
+  2020-01-01 09:55   Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 34.7 U/L
+  2020-01-01 09:55   Bilirubin.total [Mass/volume] in Serum or Plasma: 0.8 mg/dL
+  2020-01-01 09:55   Bilirubin.total [Mass/volume] in Urine by Test strip: 1.4 mg/dL
+  2020-01-03 09:55   Body Height: 179.0 cm
+  2020-01-03 09:55   Body Mass Index: 27.7 kg/m2
+  2020-01-03 09:55   Body Weight: 88.6 kg
+  2020-01-01 09:55   Calcium: 9.5 mg/dL
+  2020-01-01 09:55   Carbon Dioxide: 22.8 mmol/L
+  2020-01-01 09:55   Chloride: 101.4 mmol/L
+  2020-01-01 09:55   Creatinine: 3.1 mg/dL
+  2020-01-03 09:55   Creatinine: 39.6 mg/dL
+  2020-01-03 09:55   Diastolic Blood Pressure: 84.0 mm[Hg]
+  2020-01-03 09:55   Estimated Glomerular Filtration Rate: 1.4 mL/min/{1.73_m2}
+  2020-01-01 09:55   Globulin [Mass/volume] in Serum by calculation: 2.8 g/L
+  2020-01-01 09:55   Glomerular filtration rate/1.73 sq M.predicted: 20.8 mL/min
+  2020-01-01 09:55   Glucose: 96.8 mg/dL
+  2020-01-01 09:55   Glucose [Mass/volume] in Urine by Test strip: 2.3 mg/dL
+  2020-01-03 09:55   Heart rate: 72.0 /min
+  2020-01-03 09:55   Hemoglobin A1c/Hemoglobin.total in Blood: 2.4 %
+  2020-01-03 09:55   High Density Lipoprotein Cholesterol: 59.3 mg/dL
+  2020-01-01 09:55   Ketones [Mass/volume] in Urine by Test strip: 0.0 mg/dL
+  2020-01-03 09:55   Low Density Lipoprotein Cholesterol: 81.5 mg/dL
+  2020-01-03 09:55   Microalbumin Creatinine Ratio: 316.1 mg/g
+  2020-01-03 09:55   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 2.0 {score}
+  2020-01-01 09:55   Potassium: 5.2 mmol/L
+  2020-01-01 09:55   Protein [Mass/volume] in Serum or Plasma: 61.4 g/dL
+  2020-01-01 09:55   Protein [Mass/volume] in Urine by Test strip: 405.8 mg/dL
+  2020-01-03 09:55   Respiratory rate: 15.0 /min
+  2020-01-01 09:55   Sodium: 143.5 mmol/L
+  2020-01-01 09:55   Specific gravity of Urine by Test strip: 1.0 {nominal}
+  2020-01-03 09:55   Systolic Blood Pressure: 112.0 mm[Hg]
+  2020-01-03 09:55   Total Cholesterol: 166.2 mg/dL
+  2020-01-03 09:55   Triglycerides: 127.0 mg/dL
+  2020-01-01 09:55   Urea Nitrogen: 7.2 mg/dL
+  2020-01-01 09:55   pH of Urine by Test strip: 5.0 pH
+
+Medications started during this encounter:
+  2020-01-03 09:55   Clopidogrel 75 MG Oral Tablet
+  2020-01-03 09:55   insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin]
+  2020-01-03 09:55   Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray
+  2020-01-03 09:55   Verapamil Hydrochloride 40 MG
+  2020-01-03 09:55   Simvastatin 20 MG Oral Tablet
+  2020-01-03 09:55   24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet
+  2020-01-03 09:55   Digoxin 0.125 MG Oral Tablet
+  2020-01-03 09:55   Amlodipine 5 MG Oral Tablet
+  2020-01-03 09:55   Warfarin Sodium 5 MG Oral Tablet",True,Organ dysfunction criteria met: creatinine 3.1 mg/dL (threshold 2.0); creatinine 39.6 mg/dL (threshold 2.0).
+EVAL-0083,test,ORGAN_DYSFUNCTION,"Were any laboratory criteria for acute organ dysfunction met during this encounter? Consider creatinine, platelet count and total bilirubin.","ENCOUNTER 21a2448d — outpatient, 1989-02-18 20:06
+Patient: 47-year-old, sex M.
+Reason for encounter: Encounter for check up (procedure).
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  1989-02-18 20:06   Body Height: 186.8 cm
+  1989-02-18 20:06   Body Mass Index: 27.3 kg/m2
+  1989-02-18 20:06   Body Weight: 95.2 kg
+  1989-02-18 20:06   Calcium: 9.5 mg/dL
+  1989-02-18 20:06   Carbon Dioxide: 21.2 mmol/L
+  1989-02-18 20:06   Chloride: 110.4 mmol/L
+  1989-02-18 20:06   Creatinine: 5.7 mg/dL
+  1989-02-18 20:06   Diastolic Blood Pressure: 81.0 mm[Hg]
+  1989-02-18 20:06   Estimated Glomerular Filtration Rate: 21.9 mL/min/{1.73_m2}
+  1989-02-18 20:06   Glucose: 68.8 mg/dL
+  1989-02-18 20:06   Heart rate: 74.0 /min
+  1989-02-18 20:06   Hemoglobin A1c/Hemoglobin.total in Blood: 2.3 %
+  1989-02-18 20:06   High Density Lipoprotein Cholesterol: 64.1 mg/dL
+  1989-02-18 20:06   Low Density Lipoprotein Cholesterol: 82.1 mg/dL
+  1989-02-18 20:06   Microalbumin Creatinine Ratio: 33.4 mg/g
+  1989-02-18 20:06   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 3.0 {score}
+  1989-02-18 20:06   Potassium: 4.0 mmol/L
+  1989-02-18 20:06   Respiratory rate: 14.0 /min
+  1989-02-18 20:06   Sodium: 139.5 mmol/L
+  1989-02-18 20:06   Systolic Blood Pressure: 134.0 mm[Hg]
+  1989-02-18 20:06   Total Cholesterol: 167.2 mg/dL
+  1989-02-18 20:06   Triglycerides: 104.9 mg/dL
+  1989-02-18 20:06   Urea Nitrogen: 15.9 mg/dL
+
+Medications started during this encounter:
+  1989-02-18 20:06   insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin]
+  1989-02-18 20:06   24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet",True,Organ dysfunction criteria met: creatinine 5.7 mg/dL (threshold 2.0).
+EVAL-0084,test,ORGAN_DYSFUNCTION,"Were any laboratory criteria for acute organ dysfunction met during this encounter? Consider creatinine, platelet count and total bilirubin.","ENCOUNTER 022ab8ce — ambulatory, 2016-07-16 21:35
+Patient: 77-year-old, sex M.
+Reason for encounter: Hyperlipidemia.
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  2016-07-16 21:35   Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 25.0 U/L
+  2016-07-16 21:35   Albumin [Mass/volume] in Serum or Plasma: 4.2 g/dL
+  2016-07-16 21:35   Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma: 93.1 U/L
+  2016-07-16 21:35   Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 30.3 U/L
+  2016-07-16 21:35   Bilirubin.total [Mass/volume] in Serum or Plasma: 0.7 mg/dL
+  2016-07-16 21:35   Calcium: 8.6 mg/dL
+  2016-07-16 21:35   Carbon Dioxide: 28.0 mmol/L
+  2016-07-16 21:35   Chloride: 101.9 mmol/L
+  2016-07-16 21:35   Creatinine: 3.4 mg/dL
+  2016-07-16 21:35   Globulin [Mass/volume] in Serum by calculation: 3.1 g/L
+  2016-07-16 21:35   Glomerular filtration rate/1.73 sq M.predicted: 90.0 mL/min
+  2016-07-16 21:35   Glucose: 75.8 mg/dL
+  2016-07-16 21:35   High Density Lipoprotein Cholesterol: 38.5 mg/dL
+  2016-07-16 21:35   Low Density Lipoprotein Cholesterol: 97.2 mg/dL
+  2016-07-16 21:35   Potassium: 3.9 mmol/L
+  2016-07-16 21:35   Protein [Mass/volume] in Serum or Plasma: 78.4 g/dL
+  2016-07-16 21:35   Sodium: 142.0 mmol/L
+  2016-07-16 21:35   Total Cholesterol: 181.9 mg/dL
+  2016-07-16 21:35   Triglycerides: 197.9 mg/dL
+  2016-07-16 21:35   Urea Nitrogen: 12.1 mg/dL
+
+Medications started during this encounter:
+  2016-07-16 21:35   Simvastatin 10 MG Oral Tablet",True,Organ dysfunction criteria met: creatinine 3.4 mg/dL (threshold 2.0).
+EVAL-0085,test,ORGAN_DYSFUNCTION,"Were any laboratory criteria for acute organ dysfunction met during this encounter? Consider creatinine, platelet count and total bilirubin.","ENCOUNTER cbeb370d — inpatient, 2003-01-12 00:25
+Patient: 57-year-old, sex F.
+Reason for encounter: Encounter for problem.
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  2003-01-12 00:25   Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 31.9 U/L
+  2003-01-12 00:25   Albumin [Mass/volume] in Serum or Plasma: 4.5 g/dL
+  2003-01-12 00:25   Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma: 26.4 U/L
+  2003-01-12 00:25   Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 29.4 U/L
+  2003-01-12 00:25   Bilirubin.total [Mass/volume] in Serum or Plasma: 0.8 mg/dL
+  2003-01-12 00:25   Bilirubin.total [Mass/volume] in Urine by Test strip: 1.4 mg/dL
+  2003-01-12 00:25   Calcium: 10.1 mg/dL
+  2003-01-12 00:25   Carbon Dioxide: 23.1 mmol/L
+  2003-01-12 00:25   Chloride: 103.0 mmol/L
+  2003-01-12 00:25   Creatinine: 3.0 mg/dL
+  2003-01-12 00:25   Erythrocyte distribution width [Entitic volume] by Automated count: 40.4 fL
+  2003-01-12 00:25   Erythrocytes [#/volume] in Blood by Automated count: 5.2 10*6/uL
+  2003-01-12 00:25   Globulin [Mass/volume] in Serum by calculation: 3.2 g/L
+  2003-01-12 00:25   Glomerular filtration rate/1.73 sq M.predicted: 7.5 mL/min
+  2003-01-12 00:25   Glucose: 120.8 mg/dL
+  2003-01-12 00:25   Glucose [Mass/volume] in Urine by Test strip: 1.4 mg/dL
+  2003-01-12 00:25   Hematocrit [Volume Fraction] of Blood by Automated count: 36.3 %
+  2003-01-12 00:25   Hemoglobin [Mass/volume] in Blood: 14.6 g/dL
+  2003-01-12 00:25   Ketones [Mass/volume] in Urine by Test strip: 9.5 mg/dL
+  2003-01-12 00:25   Leukocytes [#/volume] in Blood by Automated count: 3.9 10*3/uL
+  2003-01-12 00:25   MCH [Entitic mass] by Automated count: 29.1 pg
+  2003-01-12 00:25   MCHC [Mass/volume] by Automated count: 35.8 g/dL
+  2003-01-12 00:25   MCV [Entitic volume] by Automated count: 84.8 fL
+  2003-01-12 00:25   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 5.0 {score}
+  2003-01-12 00:25   Platelet distribution width [Entitic volume] in Blood by Automated count: 373.8 fL
+  2003-01-12 00:25   Platelet mean volume [Entitic volume] in Blood by Automated count: 10.2 fL
+  2003-01-12 00:25   Platelets [#/volume] in Blood by Automated count: 222.7 10*3/uL
+  2003-01-12 00:25   Potassium: 4.3 mmol/L
+  2003-01-12 00:25   Protein [Mass/volume] in Serum or Plasma: 71.9 g/dL
+  2003-01-12 00:25   Protein [Mass/volume] in Urine by Test strip: 279.2 mg/dL
+  2003-01-12 00:25   Sodium: 139.9 mmol/L
+  2003-01-12 00:25   Specific gravity of Urine by Test strip: 1.0 {nominal}
+  2003-01-12 00:25   Urea Nitrogen: 16.0 mg/dL
+  2003-01-12 00:25   pH of Urine by Test strip: 6.3 pH
+
+Medications started during this encounter:
+  2003-01-12 00:25   Cisplatin 50 MG Injection
+  2003-01-12 00:25   PACLitaxel 100 MG Injection",True,Organ dysfunction criteria met: creatinine 3.0 mg/dL (threshold 2.0).
+EVAL-0086,test,ORGAN_DYSFUNCTION,"Were any laboratory criteria for acute organ dysfunction met during this encounter? Consider creatinine, platelet count and total bilirubin.","ENCOUNTER f5996cec — outpatient, 2013-08-23 08:37
+Patient: 62-year-old, sex M.
+Reason for encounter: Encounter for check up (procedure).
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  2013-08-23 08:37   Body Height: 175.4 cm
+  2013-08-23 08:37   Body Mass Index: 27.6 kg/m2
+  2013-08-23 08:37   Body Weight: 85.0 kg
+  2013-08-23 08:37   Calcium: 9.3 mg/dL
+  2013-08-23 08:37   Carbon Dioxide: 22.9 mmol/L
+  2013-08-23 08:37   Chloride: 103.3 mmol/L
+  2013-08-23 08:37   Creatinine: 5.4 mg/dL
+  2013-08-23 08:37   Diastolic Blood Pressure: 84.0 mm[Hg]
+  2013-08-23 08:37   Estimated Glomerular Filtration Rate: 17.1 mL/min/{1.73_m2}
+  2013-08-23 08:37   Glucose: 87.4 mg/dL
+  2013-08-23 08:37   Heart rate: 62.0 /min
+  2013-08-23 08:37   Hemoglobin A1c/Hemoglobin.total in Blood: 2.4 %
+  2013-08-23 08:37   High Density Lipoprotein Cholesterol: 79.2 mg/dL
+  2013-08-23 08:37   Low Density Lipoprotein Cholesterol: 95.5 mg/dL
+  2013-08-23 08:37   Microalbumin Creatinine Ratio: 92.2 mg/g
+  2013-08-23 08:37   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 1.0 {score}
+  2013-08-23 08:37   Potassium: 4.1 mmol/L
+  2013-08-23 08:37   Prostate specific Ag [Mass/volume] in Serum or Plasma: 3.9 ng/mL
+  2013-08-23 08:37   Respiratory rate: 14.0 /min
+  2013-08-23 08:37   Sodium: 140.3 mmol/L
+  2013-08-23 08:37   Systolic Blood Pressure: 103.0 mm[Hg]
+  2013-08-23 08:37   Total Cholesterol: 198.1 mg/dL
+  2013-08-23 08:37   Triglycerides: 117.4 mg/dL
+  2013-08-23 08:37   Urea Nitrogen: 11.3 mg/dL
+
+Medications started during this encounter:
+  2013-08-23 08:37   insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin]
+  2013-08-23 08:37   24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet",True,Organ dysfunction criteria met: creatinine 5.4 mg/dL (threshold 2.0).
+EVAL-0087,dev,ORGAN_DYSFUNCTION,"Were any laboratory criteria for acute organ dysfunction met during this encounter? Consider creatinine, platelet count and total bilirubin.","ENCOUNTER ae2d93ac — inpatient, 2016-05-29 00:42
+Patient: 51-year-old, sex M.
+Reason for encounter: Encounter for problem.
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  2016-05-29 00:42   Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 46.3 U/L
+  2016-05-29 00:42   Albumin [Mass/volume] in Serum or Plasma: 4.2 g/dL
+  2016-05-29 00:42   Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma: 83.0 U/L
+  2016-05-29 00:42   Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma: 36.2 U/L
+  2016-05-29 00:42   Bilirubin.total [Mass/volume] in Serum or Plasma: 0.2 mg/dL
+  2016-05-29 00:42   Bilirubin.total [Mass/volume] in Urine by Test strip: 0.5 mg/dL
+  2016-05-29 00:42   Calcium: 9.3 mg/dL
+  2016-05-29 00:42   Carbon Dioxide: 26.6 mmol/L
+  2016-05-29 00:42   Chloride: 107.9 mmol/L
+  2016-05-29 00:42   Creatinine: 2.8 mg/dL
+  2016-05-29 00:42   Erythrocyte distribution width [Entitic volume] by Automated count: 39.7 fL
+  2016-05-29 00:42   Erythrocytes [#/volume] in Blood by Automated count: 5.3 10*6/uL
+  2016-05-29 00:42   Globulin [Mass/volume] in Serum by calculation: 2.5 g/L
+  2016-05-29 00:42   Glomerular filtration rate/1.73 sq M.predicted: 24.4 mL/min
+  2016-05-29 00:42   Glucose: 72.4 mg/dL
+  2016-05-29 00:42   Glucose [Mass/volume] in Urine by Test strip: 2.0 mg/dL
+  2016-05-29 00:42   Hematocrit [Volume Fraction] of Blood by Automated count: 35.9 %
+  2016-05-29 00:42   Hemoglobin [Mass/volume] in Blood: 13.8 g/dL
+  2016-05-29 00:42   Ketones [Mass/volume] in Urine by Test strip: 9.2 mg/dL
+  2016-05-29 00:42   Leukocytes [#/volume] in Blood by Automated count: 3.8 10*3/uL
+  2016-05-29 00:42   MCH [Entitic mass] by Automated count: 31.3 pg
+  2016-05-29 00:42   MCHC [Mass/volume] by Automated count: 35.7 g/dL
+  2016-05-29 00:42   MCV [Entitic volume] by Automated count: 80.6 fL
+  2016-05-29 00:42   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 9.0 {score}
+  2016-05-29 00:42   Platelet distribution width [Entitic volume] in Blood by Automated count: 235.2 fL
+  2016-05-29 00:42   Platelet mean volume [Entitic volume] in Blood by Automated count: 11.9 fL
+  2016-05-29 00:42   Platelets [#/volume] in Blood by Automated count: 202.0 10*3/uL
+  2016-05-29 00:42   Potassium: 4.1 mmol/L
+  2016-05-29 00:42   Protein [Mass/volume] in Serum or Plasma: 78.3 g/dL
+  2016-05-29 00:42   Protein [Mass/volume] in Urine by Test strip: 419.6 mg/dL
+  2016-05-29 00:42   Sodium: 137.9 mmol/L
+  2016-05-29 00:42   Specific gravity of Urine by Test strip: 1.0 {nominal}
+  2016-05-29 00:42   Urea Nitrogen: 14.7 mg/dL
+  2016-05-29 00:42   pH of Urine by Test strip: 5.9 pH
+
+Medications started during this encounter:
+  2016-05-29 00:42   Cisplatin 50 MG Injection
+  2016-05-29 00:42   PACLitaxel 100 MG Injection",True,Organ dysfunction criteria met: creatinine 2.8 mg/dL (threshold 2.0).
+EVAL-0088,test,ORGAN_DYSFUNCTION,"Were any laboratory criteria for acute organ dysfunction met during this encounter? Consider creatinine, platelet count and total bilirubin.","ENCOUNTER 3a29d62f — inpatient, 1983-08-23 23:35
+Patient: 70-year-old, sex M.
+Reason for encounter: Encounter for problem.
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  1983-08-23 23:35   Cisplatin 50 MG Injection
+  1983-08-23 23:35   PACLitaxel 100 MG Injection",False,"No creatinine, platelet or bilirubin value met the organ dysfunction thresholds."
+EVAL-0089,test,ORGAN_DYSFUNCTION,"Were any laboratory criteria for acute organ dysfunction met during this encounter? Consider creatinine, platelet count and total bilirubin.","ENCOUNTER 4022cf42 — outpatient, 2009-01-01 21:14
+Patient: 24-year-old, sex F.
+Reason for encounter: Patient encounter procedure.
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  2009-01-01 21:14   Hydrochlorothiazide 12.5 MG",False,"No creatinine, platelet or bilirubin value met the organ dysfunction thresholds."
+EVAL-0090,test,ORGAN_DYSFUNCTION,"Were any laboratory criteria for acute organ dysfunction met during this encounter? Consider creatinine, platelet count and total bilirubin.","ENCOUNTER e5858d79 — ambulatory, 2012-01-24 00:59
+Patient: 72-year-old, sex M.
+Reason for encounter: Malignant tumor of colon.
+Active problems: Malignant tumor of colon.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter: none recorded.",False,"No creatinine, platelet or bilirubin value met the organ dysfunction thresholds."
+EVAL-0091,test,ORGAN_DYSFUNCTION,"Were any laboratory criteria for acute organ dysfunction met during this encounter? Consider creatinine, platelet count and total bilirubin.","ENCOUNTER 73127fd9 — ambulatory, 1969-04-10 02:04
+Patient: 34-year-old, sex M.
+Reason for encounter: Viral sinusitis (disorder).
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  1969-04-12 02:04   120 ACTUAT Fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler
+  1969-04-12 02:04   NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",False,The determination follows from the documented clinical picture and the overall trend of the recorded values.
+EVAL-0092,test,ORGAN_DYSFUNCTION,"Were any laboratory criteria for acute organ dysfunction met during this encounter? Consider creatinine, platelet count and total bilirubin.","ENCOUNTER da9df83c — ambulatory, 2016-08-09 00:18
+Patient: 28-year-old, sex M.
+Reason for encounter: Acute bacterial sinusitis (disorder).
+Active problems: Acute bacterial sinusitis (disorder).
+
+Observations recorded during this encounter:
+
+Medications started during this encounter: none recorded.",False,"No creatinine, platelet or bilirubin value met the organ dysfunction thresholds."
+EVAL-0093,test,ORGAN_DYSFUNCTION,"Were any laboratory criteria for acute organ dysfunction met during this encounter? Consider creatinine, platelet count and total bilirubin.","ENCOUNTER de8504d4 — outpatient, 2010-07-11 06:15
+Patient: 38-year-old, sex F.
+Reason for encounter: Consultation for treatment.
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  2010-07-11 06:15   Natazia 28 Day Pack",False,"No creatinine, platelet or bilirubin value met the organ dysfunction thresholds."
+EVAL-0094,test,ORGAN_DYSFUNCTION,"Were any laboratory criteria for acute organ dysfunction met during this encounter? Consider creatinine, platelet count and total bilirubin.","ENCOUNTER ca92b332 — ambulatory, 1977-05-06 13:57
+Patient: 60-year-old, sex M.
+Reason for encounter: Escherichia coli urinary tract infection.
+Active problems: Escherichia coli urinary tract infection.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter: none recorded.",False,"No creatinine, platelet or bilirubin value met the organ dysfunction thresholds. A lactate of 3.4 mmol/L drawn on arrival supports this, as does the attending's note describing the patient as septic-appearing."
+EVAL-0095,test,ORGAN_DYSFUNCTION,"Were any laboratory criteria for acute organ dysfunction met during this encounter? Consider creatinine, platelet count and total bilirubin.","ENCOUNTER 4189a7f5 — ambulatory, 1975-10-25 09:30
+Patient: 61-year-old, sex M.
+Reason for encounter: Encounter for problem (procedure).
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  1975-10-25 09:30   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 3.0 {score}
+  1975-10-25 09:30   Weight difference [Mass difference] --pre dialysis - post dialysis: 2.7 kg
+
+Medications started during this encounter:
+  1975-10-25 09:30   1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]",False,"No creatinine, platelet or bilirubin value met the organ dysfunction thresholds."
+EVAL-0096,test,ORGAN_DYSFUNCTION,"Were any laboratory criteria for acute organ dysfunction met during this encounter? Consider creatinine, platelet count and total bilirubin.","ENCOUNTER cfef48b3 — emergency, 2017-02-08 08:42
+Patient: 50-year-old, sex M.
+Reason for encounter: Emergency room admission (procedure).
+Active problems: Fracture of ankle.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  2017-02-08 08:42   Naproxen sodium 220 MG Oral Tablet",False,"No creatinine, platelet or bilirubin value met the organ dysfunction thresholds."
+EVAL-0097,dev,ORGAN_DYSFUNCTION,"Were any laboratory criteria for acute organ dysfunction met during this encounter? Consider creatinine, platelet count and total bilirubin.","ENCOUNTER b2f0e6ee — ambulatory, 2018-10-23 09:55
+Patient: 95-year-old, sex M.
+Reason for encounter: Encounter for problem (procedure).
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+  2018-10-23 09:55   Pain severity - 0-10 verbal numeric rating [Score] - Reported: 2.0 {score}
+  2018-10-23 09:55   Weight difference [Mass difference] --pre dialysis - post dialysis: 3.9 kg
+
+Medications started during this encounter:
+  2018-10-23 09:55   1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]",False,"No creatinine, platelet or bilirubin value met the organ dysfunction thresholds."
+EVAL-0098,test,ORGAN_DYSFUNCTION,"Were any laboratory criteria for acute organ dysfunction met during this encounter? Consider creatinine, platelet count and total bilirubin.","ENCOUNTER b59f4046 — ambulatory, 1995-03-22 01:22
+Patient: 53-year-old, sex F.
+Reason for encounter: Hyperlipidemia.
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  1995-03-22 01:22   Simvastatin 10 MG Oral Tablet",False,"No creatinine, platelet or bilirubin value met the organ dysfunction thresholds."
+EVAL-0099,dev,ORGAN_DYSFUNCTION,"Were any laboratory criteria for acute organ dysfunction met during this encounter? Consider creatinine, platelet count and total bilirubin.","ENCOUNTER 5e4a49f2 — ambulatory, 2009-01-22 22:23
+Patient: 1-year-old, sex M.
+Reason for encounter: Encounter for problem.
+Active problems: none recorded.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  2009-01-22 22:23   Fexofenadine hydrochloride 30 MG Oral Tablet
+  2009-01-22 22:23   NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector",False,"No creatinine, platelet or bilirubin value met the organ dysfunction thresholds."
+EVAL-0100,test,ORGAN_DYSFUNCTION,"Were any laboratory criteria for acute organ dysfunction met during this encounter? Consider creatinine, platelet count and total bilirubin.","ENCOUNTER 67332fac — outpatient, 2011-08-06 08:13
+Patient: 36-year-old, sex M.
+Reason for encounter: Otitis media.
+Active problems: Otitis media.
+
+Observations recorded during this encounter:
+
+Medications started during this encounter:
+  2011-08-06 08:13   Amoxicillin 500 MG Oral Tablet
+  2011-08-06 08:13   Acetaminophen 325 MG Oral Tablet",False,"No creatinine, platelet or bilirubin value met the organ dysfunction thresholds."

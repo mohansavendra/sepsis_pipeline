@@ -32,7 +32,7 @@ src/sepsis/parser.py                context text -> structured facts (regex, exa
 src/sepsis/rules.py                 four rule-based answerers + thresholds
 src/sepsis/validate.py              audit of the other model's answer, error classification
 src/sepsis/pipeline.py              orchestration, review routing, dev evaluation, CLI
-tests/                              11 tests (parser, rules, validation, pipeline)
+tests/                              15 tests (parser, rules, validation, pipeline, synthetic wrong-reason cases)
 predictions.csv                     output for all 100 records
 dev_metrics.json                    dev-set metrics + test error-type counts
 REPORT.md                           evaluation report
@@ -80,7 +80,7 @@ The contexts and the other model's explanations follow fixed templates, and the 
 - Synthetic, templated data. Results say nothing about clinical validity or readiness for real patients.
 - The infection and antibiotic term lists are hand-written; they cover every condition and medication in these 100 records but will miss new vocabulary. The "unsupported source" watch-list (lactate, attending, ...) is also hand-written and incomplete by nature. The unrecognised-sentence flag is the safety net.
 - SIRS and organ-dysfunction checks consider any measurement in the encounter; they do not apply a formal SEP-1 time window. Wide gaps are flagged, not resolved.
-- `right_answer_wrong_reason` is implemented but never fires on this dataset, and no test covers it.
+- `right_answer_wrong_reason` never fires on the supplied data, so it is covered only by synthetic unit tests (`tests/test_wrong_reason.py`), not by real records.
 - The validator only understands the other model's known explanation templates; free-form explanations would mostly fall through to human review.
 
 ## Production sketch (Azure / Microsoft Fabric, monthly batch)
